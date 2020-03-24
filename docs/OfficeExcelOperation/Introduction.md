@@ -1,9 +1,8 @@
-# 介绍
 在先前的模块中，我们了解了如何从无到有创建一个自动化项目。现在，我们便开始了解如何去自动化Excel操作。Excel在日常工作中是经常使用的，所以对Excel的自动化将会大大的减少工作量，提高工作效率。
 
 在此介绍中，我们来熟悉一下Office Excel组件以及一些相关知识点。
 
-![OfficeExcel](https://docimages.blob.core.chinacloudapi.cn/images/Lesson/OfficeExcel/OfficeExcel.png)
+![OfficeExcel](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/OfficeExcel/OfficeExcel.png)
 
 Office Excel组件大致分为以下几类：
 1. 打开关闭

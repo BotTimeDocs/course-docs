@@ -46,12 +46,12 @@
 
 最终，项目如下所示：
 
-![Excel设置单元格示例](https://docimages.blob.core.chinacloudapi.cn/images/Lesson/OfficeExcel/Excel-setTheCell.PNG)
+![Excel设置单元格示例](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/OfficeExcel/Excel-setTheCell.PNG)
 
 ## 运行自动化项目
 在工具栏的设计标签页下，点击“运行”，将会自动打开一个Excel文件，并进行相关操作。在日志窗口中，可以看到，合并单元格后的数据被打印出来。
 
-![Excel设置单元格日志](https://docimages.blob.core.chinacloudapi.cn/images/Lesson/OfficeExcel/log-setTheCell.PNG)
+![Excel设置单元格日志](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/OfficeExcel/log-setTheCell.PNG)
 
 ## 如何在编辑器中使用示例
 对于上述示例，你可以在编辑器的“流程市场”进行下载和使用。

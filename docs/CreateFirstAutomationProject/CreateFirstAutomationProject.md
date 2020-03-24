@@ -16,56 +16,60 @@
 4. 在工具栏的设计标签页下，点击“智能录制”，打开智能录制器
 5. 此时，智能录制器已启动
 
-    ![智能录制器](https://docimages.blob.core.chinacloudapi.cn/images/Lesson/FirstProject/recorder.PNG)
+    ![智能录制器](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/FirstProject/recorder.PNG)
 
 ## 在记事本中写入内容并插入当前时间
 现在，已经打开了智能录制器，让我们开始进行录制。
 1. 点击录制器的“智能录制”，开始录制自动化流程
+
     > 注意：
     > 当出现黄色高亮的矩形区域时，才可以点击目标元素，因为此时代表录制器已经识别出元素，意味着点击后可以获取到相关数据。
+
 2. 找到记事本，点击记事本的主窗口，会弹出一个输入文本的窗口
 3. 输入一段自定义文本，然后点击“确定”，将会把该段文本写入到记事本中</br>例如：Hello World !
 4. 选择“编辑”菜单，然后点击“时间/日期”选项，在该段文本后插入当前时间
 5. 按下ESC，暂停桌面应用的录制，此时，之前录制的操作已经暂存到录制器的预览界面
+
     > 注意：
     > 当录制过程出现操作失误等情况导致流程错误，可以通过录制器的预览界面来管理录制好的流程操作。
 
-    ![暂停录制](https://docimages.blob.core.chinacloudapi.cn/images/Lesson/FirstProject/stopRecording.PNG)
+    ![暂停录制](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/FirstProject/stopRecording.PNG)
 
 ## 获取记事本中写入的内容
 现在，我们已经在记事本中写入相关内容并插入当前时间，那么如何获取我们写入的内容？
 1. 点击智能录制器的“文本”->“获取文本”，该操作将会把目标元素的文本获取到，以让你可以进行后续处理
 
-    ![获取文本](https://docimages.blob.core.chinacloudapi.cn/images/Lesson/FirstProject/getText.PNG)
+    ![获取文本](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/FirstProject/getText.PNG)
 
 2. 找到记事本，再次点击记事本的主窗口，此时便获取到记事本主窗口的文本
 3. 点击“保存&退出”，将录制的自动化流程保存在设计窗口中
 
-    ![保存并退出](https://docimages.blob.core.chinacloudapi.cn/images/Lesson/FirstProject/saveExit.PNG)
+    ![保存并退出](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/FirstProject/saveExit.PNG)
 
 4. 录制好的流程会自动包含在序列中，如下所示：
 
-    ![录制好的流程](https://docimages.blob.core.chinacloudapi.cn/images/Lesson/FirstProject/firstProject-record.PNG)
+    ![录制好的流程](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/FirstProject/firstProject-record.PNG)
 
 ## 打印记事本中写入的内容
 现在，记事本的相关录制操作已完成，我们需要将获取到的文本打印，那么如何打印呢？
 1. 打开变量面板，创建一个字符串型（String）变量-text，用于存储获取到的文本内容
 
-    ![创建变量Text](https://docimages.blob.core.chinacloudapi.cn/images/Lesson/FirstProject/Variable-Text.PNG)
+    ![创建变量Text](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/FirstProject/Variable-Text.PNG)
 
 2. 在“获取文本”组件的属性窗口中，输入以下内容：
     - **文本**：text</br>将获取到的文本输出，以进行后续处理
 3. 从组件窗口拖入一个“写入日志”组件到“获取文本”下方
 4. 在“写入日志”组件的属性窗口中，输入以下内容：
     - **日志内容**："记事本的内容："+text</br>将获取到的记事本的内容打印出来
+
     >注意：
     >在属性窗口中输入属性值时，若属性值为字符串，需要将字符串放在英文双引号中。
 
-    ![写入日志](https://docimages.blob.core.chinacloudapi.cn/images/Lesson/FirstProject/writeToLog.PNG)
+    ![写入日志](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/FirstProject/writeToLog.PNG)
 
 最终，项目如下所示：
 
-![最终项目](https://docimages.blob.core.chinacloudapi.cn/images/Lesson/FirstProject/FirstProject.PNG)
+![最终项目](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/FirstProject/FirstProject.PNG)
 
 ## 运行自动化项目
 在工具栏的设计标签页下，点击“运行”，将会自动回放我们录制的过程。
