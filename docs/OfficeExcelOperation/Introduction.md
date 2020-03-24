@@ -3,11 +3,14 @@
 
 在此介绍中，我们来熟悉一下Office Excel组件以及一些相关知识点。
 
+![OfficeExcel](https://docimages.blob.core.chinacloudapi.cn/images/Lesson/OfficeExcel/OfficeExcel.png)
+
 Office Excel组件大致分为以下几类：
 1. 打开关闭
 打开或新建一个Excel文件，内容编辑完成后保存
-> 注意：
-> 对于Excel文件进行读写等操作时，相关组件应包含在“打开/新建”组件下。
+
+    > 注意：
+    > 对于Excel文件进行读写等操作时，相关组件应包含在“打开/新建”组件下。
 
 2. 内容操作
 对Excel文件的单元格或区域的内容进行读写或删除
@@ -24,4 +27,4 @@ Office Excel组件大致分为以下几类：
 6. 执行宏
 在Excel中执行宏命令，以完成一些复杂操作
 
-有关Office Excel组件的详细信息，请查看[Office Excel组件介绍]()。
+有关Office Excel组件的详细信息，请查看[Office Excel组件介绍](https://dev-academy.bottime.com/zh-cn/wiki/Activities/AppAutomation/OfficeExcel/OpenExcel.md)。
