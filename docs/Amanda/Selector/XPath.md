@@ -1,5 +1,5 @@
 # 增加XPath属性
-当某些元素难以定位或者定位不稳定时，可以通过增加XPath属性来解决这一问题。当使用XPath时，XPath所在的节点层级将通过XPath来定位，此节点层级的其他属性值将不会发生效力,即使其复选框为选中状态
+当某些元素难以定位或者定位不稳定时，可以通过增加XPath属性来解决这一问题。当使用XPath时，XPath所在的节点层级将通过XPath属性值来定位，此节点层级的其他属性值将不会发生效力（即使其复选框为选中状态）
 
 例如下图标红处在定位此节点层级时将不发生效力
 
@@ -21,6 +21,11 @@
 6.  点击设计面板下的 **变量**标签，并新建一个**IUiObject**类型的变量，命名为**outElement**；新建一个**Boolean**类型的变量，命名为**result**
 
 ![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/Selector/xpathVar.png)
+
+7. 点击**获取元素**组件，设置其输出**结果**属性值为**outElement** 
+
+![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/OCR/waitElementVanishProperty.png)
+
 
 ## 属性校验
 此步骤将通过属性名来获取目标元素的属性值，并和指定值进行对比后返回True或False的结果
