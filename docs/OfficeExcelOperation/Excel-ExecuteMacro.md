@@ -15,9 +15,7 @@
 4. 在该项目所在目录下，右击新建一个Excel文件，并输入文件名，例如“宏命令”
 5. 打开该文件，将其另存为“Excel 启用宏的工作簿”
 
-    <!-- ![转换文件](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/OfficeExcel/xlsxToXlsm.PNG) -->
-
-    <img src="https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/OfficeExcel/xlsxToXlsm.PNG" width = 80% />
+    ![转换文件](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/OfficeExcel/xlsxToXlsm.PNG)
 
     >注意：
     >在开始处理宏之前，应启用“开发工具”。
@@ -27,26 +25,26 @@
 ## 在“宏命令.xlsm”文件中，输入内容，并编辑宏
 1. 按照以下格式，在文件中填入“感谢选择云扩RPA编辑器”
 
-    <!-- ![写入内容](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/OfficeExcel/execute1.PNG) -->
-
-    <img src="https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/OfficeExcel/execute1.PNG" width = 80% />
+    ![写入内容](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/OfficeExcel/execute1.PNG)
 
 2. 选择“开发工具”，双击打开“Visual Basic”，在Sheet1中写入以下内容，并保存
+    Sub SetColumnsAutoFit()
+        Range("A:A").Columns.AutoFit
+    End Sub
 
-    Sub SetColumnsAutoFit()</br>Range("A:A").Columns.AutoFit</br>End Sub
-
-    <!-- ![编辑宏](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/OfficeExcel/openVisualBasic.PNG) -->
-    
-    <img src="https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/OfficeExcel/openVisualBasic.PNG" width = 80% />
+    ![编辑宏](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/OfficeExcel/openVisualBasic.PNG)
 
 ## 打开“宏命令.xlsm”文件并执行宏
-现在，我们已经在Excel文件中写入了内容，并编辑好了宏命令，那么便开始自动化执行宏吧。
+现在，我们已经在Excel文件中写入了内容，并编辑好了宏命令，那么便开始自动化执行宏吧
 1. 从组件窗口拖入一个“打开/新建”组件到设计窗口
 2. 点击组件的浏览按钮，选择“宏命令.xlsm”文件
 3. 从组件窗口拖入一个“执行宏”组件到“打开/新建”组件内部
 4. 在“执行宏”组件的属性窗口，填入以下内容：
     - **Sub/Function名**："Sheet1.SetColumnsAutoFit"</br>要执行的宏的函数名称
 
+    >注意：
+    >通过“宏文件路径”，还可以对外部宏文件进行自动化。当该属性值为空时，默认执行工作表内部宏。宏文件仅支持.txt和.text。
+  
 最终，项目如下所示：
 
 ![Excel执行宏示例](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/OfficeExcel/Excel-executeMacro.PNG)
@@ -54,9 +52,7 @@
 ## 运行自动化项目
 在工具栏的设计标签页下，点击“运行”，将会自动打开“宏命令.xlsm”文件，并且第一列的单元格大小适应为A1单元格内容。
 
-<!-- ![Excel执行宏](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/OfficeExcel/execute2.PNG) -->
-
-<img src="https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/OfficeExcel/execute2.PNG" width = 80% />
+![Excel执行宏](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/OfficeExcel/execute2.PNG)
 
 ## 如何在编辑器中使用示例
 对于上述示例，你可以在编辑器的“流程市场”进行下载和使用。
