@@ -41,21 +41,21 @@
 
  4. 填写收件人信息
 
-    > **> 收件人：** 邮件接收人邮箱地址。可写多个收件人，用分隔符";"分开即可；例如："user1@encootech.com; user2@encootech.com"
+    > **收件人：** 邮件接收人邮箱地址。可写多个收件人，用分隔符";"分开即可；例如："user1@encootech.com; user2@encootech.com"
 
-    > **> 抄送人：** 发送邮件时的邮件抄送人（CC）邮箱地址，非必填项；可写多个收件人，用分开分割即可；例如："user1@encootech.com; user2@encootech.com"
+    > **抄送人：** 发送邮件时的邮件抄送人（CC）邮箱地址，非必填项；可写多个收件人，用分开分割即可；例如："user1@encootech.com; user2@encootech.com"
     
-    > **> 密件抄送：** 发送邮件时的秘密抄送人（BCC）邮箱地址，非必填项；可写多个收件人，用分开分割即可；例如："user1@encootech.com; user2@encootech.com"
+    > **密件抄送：** 发送邮件时的秘密抄送人（BCC）邮箱地址，非必填项；可写多个收件人，用分开分割即可；例如："user1@encootech.com; user2@encootech.com"
 
  5. 填写具体邮件内容
 
-    > **> 邮件主题：** 填写邮件标题"Demo for Email Automation"
+    > **邮件主题：** 填写邮件标题"Demo for Email Automation"
 
-    > **> HTML格式：** 勾选
+    > **HTML格式：** 勾选
 
-    > **> 邮件内容：** 填写邮件内容 "Just for demo, please ignore..."
+    > **邮件内容：** 填写邮件内容 "Just for demo, please ignore..."
 
-    > **> 附件：**  本课程中我们将会添加两个附件，添加方法：
+    > **附件：**  本课程中我们将会添加两个附件，添加方法：
     
     1. 先在【变量】面板创建变量listAttachments
     2. 设置此变量数据类型为List<string>，此时需导入命名空间**System.Collections.Generic.List<System.String>**

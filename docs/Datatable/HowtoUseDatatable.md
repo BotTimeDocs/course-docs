@@ -5,20 +5,20 @@
 
 
 在此单元你将学习到：
-- 使用[读取CSV文件](https://academy.bottime.com/en-us/wiki/Activities/DataTable/ReadCSV.md)组件
-- 使用[搭建数据表](https://academy.bottime.com/en-us/wiki/Activities/DataTable/BuildDataTable.md)组件
-- 使用[联结数据表](https://academy.bottime.com/en-us/wiki/Activities/DataTable/JoinDataTable.md)组件
-- 使用[预览数据表](https://academy.bottime.com/en-us/wiki/Activities/DataTable/PreviewDataTable.md)组件
-- 使用[移除列](https://academy.bottime.com/en-us/wiki/Activities/DataTable/RemoveColumn.md)组件
-- 使用[保存为CSV文件](https://academy.bottime.com/en-us/wiki/Activities/DataTable/SaveToCSV.md)组件
+- 使用[读取CSV文件](https://academy.encoo.com/zh-cn/wiki/Activities/DataTable/ReadCSV.md?_v=v2020.1)组件
+- 使用[搭建数据表](https://academy.encoo.com/zh-cn/wiki/Activities/DataTable/BuildDataTable.md?_v=v2020.1)组件
+- 使用[联结数据表](https://academy.encoo.com/zh-cn/wiki/Activities/DataTable/JoinDataTable.md?_v=v2020.1)组件
+- 使用[预览数据表](https://academy.encoo.com/zh-cn/wiki/Activities/DataTable/PreviewDataTable.md?_v=v2020.1)组件
+- 使用[移除列](https://academy.encoo.com/zh-cn/wiki/Activities/DataTable/RemoveColumn.md?_v=v2020.1)组件
+- 使用[保存为CSV文件](https://academy.encoo.com/zh-cn/wiki/Activities/DataTable/SaveToCSV.md?_v=v2020.1)组件
 
 准备工作：
-- 一个名称为StudentsBasicInfo的CSV文件，内容格式如下：
+- 一个名称为StudentsBasicInfo的CSV文件(已包含在课程示例中, 下载即可得)，内容格式如下：
      ![DataTable](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/Datatable/DT-1.png)
 
 ## 创建项目
 
-1. 在编辑器创建一个新的项目"DatatableAutomationDemo"
+1. 在编辑器创建一个新的项目 DatatableAutomationDemo 
 2. 右键项目名称并点击“打开所在文件夹”菜单，打开项目目录，创建文件夹“Files”,并将准备好的CSV文件放入此文件夹
 3. 在【变量】面板分别创建3个数据类型为system.Data.Datatable且范围为MainFlow的变量：dtStudentsBasicInfo、dtStudentsAddress 和 dtStudentsFullInfo
      ![DataTable](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/Datatable/DT-2.png)
@@ -31,14 +31,14 @@
 
     > **数据表：** 输入变量 dtStudentsBasicInfo
 
-2. 将【搭建数据表】组件拖拽进设计面板,用于搭建一个将于其他表合并的数据表，并于【读取CSV文件】组件建立连接。双击【搭建数据表】后再点击【点击打开“数据表搭建器”】，配置数据信息，如下两图所示：
+2. 将【搭建数据表】组件拖拽进设计面板,用于搭建一个将于其他表合并的数据表，并与【读取CSV文件】组件建立连接。双击【搭建数据表】后再点击【点击打开“数据表搭建器”】，配置数据信息，如下两图所示：
 
      ![DataTable](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/Datatable/DT-3.png)
 
      ![DataTable](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/Datatable/DT-4.png)
 
 
-3. 将【联结数据表】组件拖拽进设计面板,用于将读取的CSV数据与刚搭建的数据表执行内连接操作，并于【搭建数据表】组件建立连接。在属性面板【数据表】字段中输入变量dtStudentsAddress，用于接收输出的数据结果。双击【联结数据表】后再点击【点击打开“连接配置”】，在【联结配置】窗口配置如下图所示信息：
+3. 将【联结数据表】组件拖拽进设计面板,用于将读取的CSV数据与刚搭建的数据表执行内连接操作，并与【搭建数据表】组件建立连接。在属性面板【数据表】字段中输入变量dtStudentsAddress，用于接收输出的数据结果。双击【联结数据表】后再点击【点击打开“连接配置”】，在【联结配置】窗口配置如下图所示信息：
 
      ![DataTable](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/Datatable/DT-5.png)
 
@@ -52,7 +52,7 @@
 
     > **列名：** 输入 "S_ID", 指将移除数据表dtStudentsFullInfo中的列 S_ID 。 注意："列名，列索引和数据表列"这3个属性互斥，只能且必需填入一项
 
- 5. 再将一个【移除列】组件拖拽进设计面板中并于组件【移除列(S_ID)】建立连接, 用于移除联结后数据结果中的多余列 S_UserName，配置属性如下：
+ 5. 再将一个【移除列】组件拖拽进设计面板中并与组件【移除列(S_ID)】建立连接, 用于移除联结后数据结果中的多余列 S_UserName，配置属性如下：
 
     > **显示名称：** 输入 移除列(S_UserName)，用于将组件名称更改为更易理解的信息
 
@@ -60,7 +60,7 @@
 
     > **列名：** 输入 "S_UserName", 指将移除数据表dtStudentsFullInfo中的列 S_UserName 
 
- 5. 将【读取CSV文件】组件拖拽进设计面板中，并于组件【移除列(S_UserName)】建立连接，用于将处理后的数据表保存至CSV文件中。配置属性如下：
+ 5. 将【读取CSV文件】组件拖拽进设计面板中，并与组件【移除列(S_UserName)】建立连接，用于将处理后的数据表保存至CSV文件中。配置属性如下：
 
     > **文件路径：** 输入将要保存的文件路径 ".\Files\StudentsFullInfo.csv"
 
