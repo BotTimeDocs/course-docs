@@ -52,7 +52,7 @@
 
     > **列名：** 输入 "S_ID", 指将移除数据表dtStudentsFullInfo中的列 S_ID 。 注意："列名，列索引和数据表列"这3个属性互斥，只能且必需填入一项
 
- 5. 再将一个【移除列】组件拖拽进设计面板中并与组件【移除列(S_ID)】建立连接, 用于移除联结后数据结果中的多余列 S_UserName，配置属性如下：
+ 6. 再将一个【移除列】组件拖拽进设计面板中并与组件【移除列(S_ID)】建立连接, 用于移除联结后数据结果中的多余列 S_UserName，配置属性如下：
 
     > **显示名称：** 输入 移除列(S_UserName)，用于将组件名称更改为更易理解的信息
 
@@ -60,21 +60,25 @@
 
     > **列名：** 输入 "S_UserName", 指将移除数据表dtStudentsFullInfo中的列 S_UserName 
 
- 5. 将【读取CSV文件】组件拖拽进设计面板中，并与组件【移除列(S_UserName)】建立连接，用于将处理后的数据表保存至CSV文件中。配置属性如下：
+ 7. 将【读取CSV文件】组件拖拽进设计面板中，并与组件【移除列(S_UserName)】建立连接，用于将处理后的数据表保存至CSV文件中。配置属性如下：
 
     > **文件路径：** 输入将要保存的文件路径 ".\Files\StudentsFullInfo.csv"
 
     > **数据表：** 输入变量 dtStudentsFullInfo
 
-6. 流程创建完成，如下图所示：
+8. 流程创建完成，如下图所示：
+
      ![DataTable](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/Datatable/DT-9.png)
 
 ## 执行项目查看结果
 1. 点击【运行】
 2. 出现【预览数据表】，已成功将两个数据表合并，但还未移除列S_ID和S_UserName前的数据表，如下图：
+
      ![DataTable](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/Datatable/DT-6.png)
+
 3. 点击【确认】，项目执行完毕
 4. 右键项目名称并点击“打开所在文件夹”菜单，进入文件夹“Files”，你将会看到一个StudentsFullInfo.csv文件，双击打开，数据结果如下图，已成功移除列S_ID和S_UserName：
+
      ![DataTable](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/Datatable/DT-7.png)
 
 

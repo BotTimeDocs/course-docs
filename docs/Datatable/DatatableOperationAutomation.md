@@ -72,11 +72,13 @@
     > **数据表：** 输入变量 dtStudentsByFilter
 
 8. 流程创建完成，如下图所示：
+
      ![DataTable](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/Datatable/DT-24.png)
 
 ## 执行项目查看结果
 1. 点击【运行】，在【日志】面板可以查看整个运行过程记录
 2. 右键项目名称并点击“打开所在文件夹”菜单，进入文件夹“Files”，你将会看到一个StudentsByFilter.csv文件，双击打开，数据结果如下图，已成功删除列"ID"和过滤"City"是"Beijing"的数据，如下图：
+
      ![DataTable](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/Datatable/DT-25.png)
 
 ## 如何在编辑器中下载并使用本课程示例
