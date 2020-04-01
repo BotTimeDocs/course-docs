@@ -5,7 +5,6 @@
 在此单元中，我们将一起使用调试工具和日志组件一步一步执行整个运行过程并将关键信息记录在日志。
 
 
-
 在此单元你将学习到：
 - 使用[调试](https://academy.encoo.com/zh-cn/wiki/Studio/Debugging.md)追踪和定位问题
 - 使用[错误捕获(Try Catch)](https://academy.encoo.com/zh-cn/wiki/Activities/WorkflowControl/TryCatch.md)组件
@@ -19,6 +18,7 @@
 
 1. 在编辑器创建一个新的项目**DebugandNoteDemo**
 2. 在【组件】面板搜索【打开/新建】或在【软件自动化】-【Office Excel】目录下找到【打开/新建】组件，并将其拖拽进新建项目Main设计面板中
+
     ![Demo](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/DebugAndNote/DebugDemo-1.png)
 
 3. 选中【打开/新建】组件并在属性面板配置文件路径：
@@ -27,13 +27,13 @@
 
     ![Demo](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/DebugAndNote/DD-1.png)
 
-
-
 ## 配置流程信息
 
 1. 在设计面板中双击打开【打开/新建】组件，找到【错误捕获(Try Catch)】组件并拖入
 2. 在【Try】区域相继拖入【插入工作表】、【写入单元格】和【写入日志】组件
+
     ![Demo](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/DebugAndNote/DD-2.png)
+
 3. 在【插入工作表】组件的属性面板填写如下信息：
    > 新工作表名称："Demo"
    > 插入位置: 2
