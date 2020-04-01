@@ -25,7 +25,6 @@
    > 新建文件: 勾选 
    > 文件路径: "Files\Demo.xlsx" 
 
-    ![Demo](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/DebugAndNote/DD-1.png)
 
 ## 配置流程信息
 
