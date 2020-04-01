@@ -31,14 +31,14 @@
     > **ConnectionString：** 输入连接到此数据库服务器的字符串 "Server={服务器地址};Database={DB名字};Port={端口号};Uid={uid};Pwd={password};"
 2. 点击【测试连接】确认是否可成功连接数据库
 
-    ![img](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/DatabaseAutomation/DB-1.png)
+    ![alt DB](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/DatabaseAutomation/DB-1.png)
 
 ## 数据库操作
 
 1. 将【执行事务】组件拖入【连接数据库】中
 2. 并继续向【执行事务】组件中拖入两个【执行语句】组件和一个【查询】组件
 
-    ![img](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/DatabaseAutomation/DB-2.png)
+    ![alt DB](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/DatabaseAutomation/DB-2.png)
 
 3. 配置第一个【执行语句】组件属性，此组件用于执行在数据库创建表的语句
 
@@ -61,7 +61,7 @@
 
  1. 回到MainFLow设计面板，将【保存为CSV文件】组件拖入并与【连接数据库】建立连接
 
-     ![img](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/DatabaseAutomation/DB-3.png)
+     ![alt DB](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/DatabaseAutomation/DB-3.png)
 
  2. 配置【保存为CSV文件】组件的属性
 
@@ -73,7 +73,7 @@
 ## 执行项目查看结果
 点击【运行】即可完成在数据库创建表、向表中插入数据并读取数据后将结果保存至项目目录下的Files文件夹
 &nbsp;
-    ![img](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/DatabaseAutomation/DB-4.png)
+    ![alt DB](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/DatabaseAutomation/DB-4.png)
 
 
 
