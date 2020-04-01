@@ -7,9 +7,9 @@
 
 
 在此单元你将学习到：
-- 使用[调试](https://academy.bottime.com/wiki/Studio/Debugging.md?)追踪和定位问题
-- 使用[错误捕获(Try Catch)](https://academy.bottime.com/zh-cn/wiki/Activities/WorkflowControl/TryCatch.md?_v=v2020.1)组件
-- 使用[写入日志](https://academy.bottime.com/wiki/Activities/System/WriteLog.md?_v=v2020.1)组件
+- 使用[调试](https://academy.encoo.com/zh-cn/wiki/Studio/Debugging.md)追踪和定位问题
+- 使用[错误捕获(Try Catch)](https://academy.encoo.com/zh-cn/wiki/Activities/WorkflowControl/TryCatch.md)组件
+- 使用[写入日志](https://academy.encoo.com/wiki/Activities/System/WriteLog.md)组件
 
 
 准备工作：

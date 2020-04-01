@@ -7,10 +7,10 @@
 
 
 在此单元你将学习到：
-- 使用[连接数据库](https://academy.bottime.com/en-us/wiki/Activities/Database/ConnectDatabase.md)组件
-- 使用[执行事务](https://academy.bottime.com/en-us/wiki/Activities/Database/StartTransaction.md)组件
-- 使用[执行语句](https://academy.bottime.com/en-us/wiki/Activities/Database/ExecuteNonQuery.md)组件
-- 使用[查询](https://academy.bottime.com/en-us/wiki/Activities/Database/Select.md)组件
+- 使用[连接数据库](https://academy.encoo.com/zh-cn/wiki/Activities/Database/ConnectDatabase.md)组件
+- 使用[执行事务](https://academy.encoo.com/zh-cn/wiki/Activities/Database/StartTransaction.md)组件
+- 使用[执行语句](https://academy.encoo.com/zh-cn/wiki/Activities/Database/ExecuteNonQuery.md)组件
+- 使用[查询](https://academy.encoo.com/zh-cn/wiki/Activities/Database/Select.md)组件
 
 准备工作：
 - 一个可用的MySQL服务
