@@ -43,7 +43,7 @@
     
     具体操作如下：
     
-    1. 在变量列表新建一个变量mailResult，类型为List<System.Net.Mail.MailMessage>
+    1. 在变量列表新建一个变量mailResult，类型为List&lt;System.Net.Mail.MailMessage&gt;
 
         ![Demo](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/EmailAutomation/GetAttachments-3.png)
 
