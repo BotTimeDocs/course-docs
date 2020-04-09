@@ -1,14 +1,16 @@
 
-# 实现数据库处理自动化
+# 数据库操作自动化
 
 在此单元中，将创建一个自动执行MySQL数据库操作（创建表、查询）并将数据输出到CSV的机器人。
 
+目前支持的数据包括：SQL、MySQL、Oracle、Teradata和IBM DB2，本课程中使用的是MySQL
+
 
 在此单元你将学习到：
-- 使用[连接数据库](https://academy.bottime.com/en-us/wiki/Activities/Database/ConnectDatabase.md)组件
-- 使用[执行事务](https://academy.bottime.com/en-us/wiki/Activities/Database/StartTransaction.md)组件
-- 使用[执行语句](https://academy.bottime.com/en-us/wiki/Activities/Database/ExecuteNonQuery.md)组件
-- 使用[查询](https://academy.bottime.com/en-us/wiki/Activities/Database/Select.md)组件
+- 使用[连接数据库](https://academy.encoo.com/zh-cn/wiki/Activities/Database/ConnectDatabase.md)组件
+- 使用[执行事务](https://academy.encoo.com/zh-cn/wiki/Activities/Database/StartTransaction.md)组件
+- 使用[执行语句](https://academy.encoo.com/zh-cn/wiki/Activities/Database/ExecuteNonQuery.md)组件
+- 使用[查询](https://academy.encoo.com/zh-cn/wiki/Activities/Database/Select.md)组件
 
 准备工作：
 - 一个可用的MySQL服务
@@ -35,6 +37,7 @@
 
 1. 将【执行事务】组件拖入【连接数据库】中
 2. 并继续向【执行事务】组件中拖入两个【执行语句】组件和一个【查询】组件
+
     ![DB](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/DatabaseAutomation/DB-2.png)
 
 3. 配置第一个【执行语句】组件属性，此组件用于执行在数据库创建表的语句
@@ -57,6 +60,7 @@
 ## 将数据结果保存至CSV文件
 
  1. 回到MainFLow设计面板，将【保存为CSV文件】组件拖入并与【连接数据库】建立连接
+
      ![DB](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/DatabaseAutomation/DB-3.png)
 
  2. 配置【保存为CSV文件】组件的属性
@@ -68,6 +72,7 @@
 
 ## 执行项目查看结果
 点击【运行】即可完成在数据库创建表、向表中插入数据并读取数据后将结果保存至项目目录下的Files文件夹
+&nbsp;
     ![DB](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/DatabaseAutomation/DB-4.png)
 
 

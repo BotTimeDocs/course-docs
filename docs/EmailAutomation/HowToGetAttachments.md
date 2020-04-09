@@ -1,10 +1,10 @@
-# 实现一个可以自动获取邮件和附件的机器人
+# 自动获取邮件和附件
 
 在此单元中，将创建一个自动获取邮件的机器人，并可将附件保存到指定目录。
 
 
 在此单元你将学习到：
-- 使用[获取邮件POP3](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/Mail/GetMailPOP3.md)组件
+- 使用[获取邮件(POP3)](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/Mail/GetMailPOP3.md)组件
 - 使用[保存附件](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/Mail/GetMailPOP3.md)组件
 
 准备工作：
@@ -13,14 +13,14 @@
 ## 创建项目
 
 1. 在编辑器创建一个新的项目**GetEmailandAttachmentsDemo**
-2. 从【组件】面板将组件【获取邮件POP3】、【循环操作（For Each）】拖入进设计面板中
+2. 从【组件】面板将组件【获取邮件(POP3)】、【循环操作（For Each）】拖入进设计面板中
 
    ![Demo](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/EmailAutomation/GetAttachments-1.png)
 
 
 ## 配置目标邮箱信息
 
-1. 在项目中点击【获取邮件POP3】组件并在右侧【属性】面板配置所需字段
+1. 在项目中点击【获取邮件(POP3)】组件并在右侧【属性】面板配置所需字段
 2. 配置服务器信息
 
     > **服务器地址：** 输入服务器地址，例如："smtp.outlook.cn"
@@ -43,6 +43,7 @@
     1. 在变量列表新建一个变量mailResult，类型为List<MailMessage>
    ![Demo](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/EmailAutomation/GetAttachments-3.png)
     2. 回到属性栏，在【输出】-【邮件】输入框中填入mailResult，即所获取到的邮件就都会保存在mailResult中
+    
        ![Demo](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/EmailAutomation/GetAttachments-4.png)
 
 
