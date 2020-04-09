@@ -39,10 +39,13 @@
     > **获取封数：** 输入10
 4. 设置输出
 
-    > **邮件：** 此属性的作用是接收获取到的邮件，为了接下来从输出结果中获取附件，我们先将其保存到变量mailResult中。具体操作如下：
+    > **邮件：** 此属性的作用是接收获取到的邮件，为了接下来从输出结果中获取附件，我们先将其保存到变量mailResult中。
+    
+    具体操作如下：
+    
     1. 在变量列表新建一个变量mailResult，类型为List<System.Net.Mail.MailMessage>
 
-       ![Demo](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/EmailAutomation/GetAttachments-3.png)
+        ![Demo](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/EmailAutomation/GetAttachments-3.png)
 
     2. 回到属性栏，在【输出】-【邮件】输入框中填入mailResult，即所获取到的邮件就都会保存在mailResult中
 
