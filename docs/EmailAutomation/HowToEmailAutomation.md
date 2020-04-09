@@ -1,11 +1,11 @@
 
 # Email自动化
 
-在此单元中，将创建一个自动发送邮件的机器人，这个机器人可以同时向分别两个收件人发送邮件，每封邮件都包含两个附件。
+在此单元中，将创建一个自动发送邮件的机器人，它可以同时分别向两个收件人发送邮件，每封邮件都包含两个附件。
 
 
 在此单元你将学习到：
-- 使用[发送邮件SMTP](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/Mail/SendMailSMTP.md)组件
+- 使用[发送邮件(SMTP)](https://academy.encoo.com/zh-cn/wiki/Activities/AppAutomation/Mail/SendMailSMTP.md)组件
 
 
 准备工作：
@@ -14,15 +14,15 @@
 
 ## 创建项目
 
-1. 在编辑器创建一个新的项目"EmailAutomationDemo"
-2. 在【组件】面板搜索【邮件】或在【软件自动化】-【邮件】目录下找到【发送邮件SMTP】组件，并将其拖拽进新建项目Main设计面板中
+1. 在编辑器创建一个新的项目**EmailAutomationDemo**
+2. 在【组件】面板搜索【邮件】或在【软件自动化】-【邮件】目录下找到【发送邮件(SMTP)】组件，并将其拖拽进新建项目Main设计面板中
 
     ![Demo](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/EmailAutomation/EmailAutomation-Search.png)
 
 
 ## 配置邮件信息
 
-1. 在设计面板中点击【发送邮件SMTP】组件并在右侧【属性】面板配置所需字段：
+1. 在设计面板中点击【发送邮件(SMTP)】组件并在右侧【属性】面板配置所需字段：
 2. 配置发件人信息
 
     > **邮箱地址：** 输入发件人邮箱地址，例如："username@encootech.com"
@@ -37,7 +37,7 @@
 
     > **代理：** 非必填项，根据实际业务需要选择是否填写。格式为{服务器地址}:{端口号}
 
-    注意：服务器和端口号可以根据邮箱后缀不同，在网上或[云扩论坛](https://WWW.xxx.com)查找相关信息，例如，发件人使用QQ邮箱，您可在网上查找“QQ邮箱 SMTP服务器地址 端口号”；
+    注意：服务器和端口号可以根据邮箱后缀不同，在网上或[云扩社区](https://academy.encoo.com/forum)查找相关信息，例如，发件人使用QQ邮箱，您可在网上查找“QQ邮箱 SMTP服务器地址 端口号”；
 
  4. 填写收件人信息
 
