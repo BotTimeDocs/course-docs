@@ -17,6 +17,7 @@
 ![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/Selector/Val3.png)
 
 6. 点击确定，返回**变量**面板，粘贴上一步的属性值到变量**Val**的默认值处
+&nbsp;
 
 ![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/Selector/Val2.png
 )
