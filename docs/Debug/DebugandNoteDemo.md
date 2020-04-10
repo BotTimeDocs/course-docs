@@ -22,7 +22,9 @@
     ![Demo](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/DebugAndNote/DebugDemo-1.png)
 
 3. 选中【打开/新建】组件并在属性面板配置文件路径：
+
    > 新建文件: 勾选 
+
    > 文件路径: "Files\Demo.xlsx" 
 
 
@@ -34,22 +36,31 @@
     ![Demo](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/DebugAndNote/DD-2.png)
 
 3. 在【插入工作表】组件的属性面板填写如下信息：
+
    > 新工作表名称："Demo"
+
    > 插入位置: 2
 
 4. 在【写入单元格】组件的属性面板填写如下信息：
+
    > 单元格："A0"
+
    > 工作表："Demo"
+
    > 数据： "Just for demo"
 
 
 5. 在【写入单元格】组件的属性面板填写如下信息：
+
    > 日志级别："info"
+
    > 日志内容：DateTime.Now+"：成功写入单元格"
 
 
 5. 在【Catches】区域拖入【写入日志】组件:
+
    > 日志级别："Error"
+   
    > 日志内容：DateTime.Now+"遇到异常："+exception.Message
 
 

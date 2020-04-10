@@ -28,7 +28,7 @@
 
     > **ProviderName：** 选择 MySql.Data.MySqlClient
 
-    > **ConnectionString：** 输入连接到此数据库服务器的字符串 "Server={服务器地址};Database={DB名字};Port={端口号};Uid={uid};Pwd={password};"
+    > **ConnectionString：** 输入连接到此数据库服务器的字符串 "Server={服务器地址};Database={DB名字，本课程中用Demo};Port={端口号};Uid={uid};Pwd={password};"
 2. 点击【测试连接】确认是否可成功连接数据库
 
     ![DB](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/DatabaseAutomation/DB-1.png)
