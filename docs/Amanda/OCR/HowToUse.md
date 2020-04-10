@@ -79,4 +79,4 @@
 ![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/OCR/Log.png)
 
 ## 运行
-19. 点击工**运行**按钮，结束后查看运行日志即可
+19. 点击**运行**按钮，结束后查看运行日志即可
