@@ -4,7 +4,7 @@
 ## 错误处理
 此步骤用于捕捉运行中的错误以提高流程的成功率，同时提供错误解决方案以使流程继续运行。下述**Catch**内组件，仅当**Try**内组件运行失败时才会运行，它的作用是对**Try**内组件进行错误处理
 
-1. 打开云扩**编辑器**，新建一个空白项目，搜索**错误捕捉(Try Catch)**组件并拖拽至设计面板，重命名为**1.penBroswer**，设为开始结点,双击打开
+1. 打开云扩**编辑器**，新建一个空白项目，搜索**错误捕捉(Try Catch)**组件并拖拽至设计面板，重命名为**1.OpenBroswer**，设为开始结点,双击打开
 
 ![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/web/Rename.png)
 
@@ -91,4 +91,4 @@
 ![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/web/decision1.png)
 
 ## 运行
-21. 点击工具栏的**运行**按钮，结束后查看运行日志即可
+21. 点击**运行**按钮，结束后查看运行日志即可

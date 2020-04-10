@@ -24,14 +24,10 @@
 
 7. 点击**获取元素**组件，设置其输出**结果**属性值为**outElement** 
 
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/OCR/waitElementVanishProperty.png)
-
-
 ## 属性校验
 此步骤将通过属性名来获取目标元素的属性值，并和指定值进行对比后返回True或False的结果
 
-7. 搜索**属性校验**组件并拖拽至设计面板
-8. 设置其目标**控件元素**属性值为**outElement** ；设置其输入**属性名**属性值为**innerText**;设置其目标**值**属性值为 **"云扩RPA "**  
+8. 搜索**属性校验**组件并拖拽至设计面板。设置其目标**控件元素**属性值为**outElement** ；设置其输入**属性名**属性值为 **"innerText"**;设置其目标**值**属性值为 **"云扩RPA "**  (注意，此处RPA有在结尾后有空格)
 
 ## 将目标元素的属性值写入日志
 此步骤用于查看目标元素的innerText属性值
@@ -77,7 +73,7 @@
 19. 点击**属性检验**组件，设置其目标**值**属性值为 **"新闻中心"**
 
 ## 运行查看结果
-20. 点击工具栏的**运行**按钮，结束后查看运行日志，应含有下图两行日志信息
+20. 点击**运行**按钮，结束后查看运行日志，应含有下图两行日志信息
 
 ![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/Selector/result2.png)
 

@@ -55,6 +55,6 @@
 ![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/web/e.png)
 
 ## 运行
-17. 点击工具栏的**运行**按钮，结束后查看运行日志即可
+17. 点击**运行**按钮，结束后查看运行日志即可
 
 <table><td bgcolor=	#F0F8FF>请手动注册云扩控制台账号，以备后续课程使用</td></table>

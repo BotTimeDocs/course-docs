@@ -67,9 +67,6 @@
 ![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/OCR/DrawPreview.png)
 
 16. 点击设计面板下的 **变量**标签，并新建一个**Boolean**类型的变量，命名为**waitElementVanish**
-
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/OCR/waitElementVanishVariable.png)
-
 17. 点击**等待元素消失**组件，设置其输出**结果**属性值为**waitElementVanish** （若指定元素消失，则会返回 **True**; 否则返回 **False**)
 
 ![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/OCR/waitElementVanishProperty.png)
@@ -77,9 +74,9 @@
 
 
 ## 将结果写入日志
-18. 搜索**写入日志**组件并拖拽至设计面板。**日志内容**写入属性值 **"PageSetupPage Vanished? : " + watiElementVanish.ToString()** (此步骤将会看到**等待元素消失**组件的执行结果，即指定元素是否消失)
+18. 搜索**写入日志**组件并拖拽至设计面板。**日志内容**写入属性值 **"PageSetupPage Vanished? : " + waitElementVanish.ToString()** (此步骤将会看到**等待元素消失**组件的执行结果，即指定元素是否消失)
 
 ![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/OCR/Log.png)
 
 ## 运行
-19. 点击工具栏的**运行**按钮，结束后查看运行日志即可
+19. 点击工**运行**按钮，结束后查看运行日志即可
