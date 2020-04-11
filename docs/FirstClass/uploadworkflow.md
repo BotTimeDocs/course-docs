@@ -8,7 +8,7 @@
 3. 选择资源组，点击**发布**
 ![workflow](https://docimages.blob.core.chinacloudapi.cn/images/Kris/robotrunjob/uploadworkflow.png)
 
-发布成功后，打开浏览器登录控制台（https://console.encoo.com/ ） ，你可以在**流程管理**找到上传的流程包。
+发布成功后，打开浏览器登录控制台（https://console.encoo.com/ ） ，你可以在**流程包管理**找到上传的流程包。
 ![workflow](https://docimages.blob.core.chinacloudapi.cn/images/Kris/robotrunjob/viewworkflow.png)
 
 ## 安装机器人并激活
