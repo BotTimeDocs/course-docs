@@ -64,3 +64,10 @@
 20. 点击**运行**按钮，可看到获取的第一页数据在运行时被展示了出来
 
 ![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/ExtractStructruedData/result.png)
+
+## 如何在编辑器中下载并使用本课程示例
+1. 打开编辑器，在工具栏点击【流程市场】
+2. 搜索此课程名称即可找到此流程
+3. 选中流程并点击【下载】图标，在【新建项目】弹窗中输入【项目名称】
+4. 点击【创建】此时将会在本地创建一个新的项目
+5. 在【工作目录】面板即可打开创建的项目
