@@ -56,7 +56,7 @@
 
 13. 点击设计面板下的 **变量**标签，并新建一个**Boolean**类型的变量，命名为**waitElementVanishResult**
 
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/web/var1.png)
+![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/web/var1.jpg)
 
 14. 点击**等待元素消失**组件，设置其输出**结果**属性值为**waitElementVanishResult** （若指定元素消失，则会返回 **True**; 否则返回 **False**)
 
