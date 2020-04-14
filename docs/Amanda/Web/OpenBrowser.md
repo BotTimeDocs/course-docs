@@ -31,7 +31,7 @@
 8. **网址**写入属性值 **"www.encoo.com/apply"**； **浏览器类型**选择**Chrome**
 <table><td bgcolor=	#F0F8FF>仅当Chrome插件安装后，才可以使用Chrome浏览器运行流程 （IE运行流程不需要安装插件）。具体安装帮助请点击<a href=https://academy.bottime.com/zh-cn/wiki/Studio/Extensions/ChromeExtension.md>这里 </a>查看</td></table>
 
-9. 搜索**点击**组件并拖拽至设计面板
+9. 搜索**点击**组件并拖拽至**打开浏览器**组件内
 10. 点击**指定元素**，将鼠标放到**立即注册**高亮显示时，点击
 
 ![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/web/Register.png)
@@ -41,7 +41,7 @@
 
 下面将使用第一种**指定特定标签页**：
 
-11. 搜索**关闭标签页**组件并拖拽至设计面板。点击**指定元素**，将鼠标放到要关闭的标签页并高亮显示时，点击
+11. 搜索**关闭标签页**组件并拖拽至**打开浏览器**组件内。点击**指定元素**，将鼠标放到要关闭的标签页并高亮显示时，点击
 
 ![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/web/highlight.png)
 
@@ -49,7 +49,7 @@
 ## 等待元素消失
 此步骤用于检测上一步骤的操作是否生效 （通过指定按钮所在界面的某一元素，通过判断其是否消失来确定点击是否生效）
 
-12. 搜索**等待元素消失**组件并拖拽至设计面板。点击**指定元素**，将鼠标放到下图位置并高亮显示时，点击
+12. 搜索**等待元素消失**组件并拖拽至**打开浏览器**组件内。点击**指定元素**，将鼠标放到下图位置并高亮显示时，点击
 
 ![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/web/waitVanish.png)
 
