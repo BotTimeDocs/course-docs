@@ -60,7 +60,7 @@
     1. 先在【变量】面板创建变量listAttachments
     2. 设置此变量数据类型为List<string>，此时需导入命名空间**System.Collections.Generic.List<System.String>**
 
-    3. 为此变量初始化 **new List<string>(){".\Files\Demo.txt",".\HelloWorld.jpg"}** 
+    3. 为此变量初始化 **new List<string>(){"Files\Demo.txt","Files\HelloWorld.png"}** 
         ![Demo](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/EmailAutomation/EmailAutomation-var.png)
 
 
