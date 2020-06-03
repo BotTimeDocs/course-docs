@@ -87,7 +87,7 @@
 
     ![Demo](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/DebugAndNote/DD-13.png)
 
-5. 再次在编辑器工具栏点击【调试】，并按照之前的操作点【F1】继续单步调试，最后流程成功执行完成
+5. 再次在编辑器工具栏点击【调试】，并按照之前的操作点【F11】继续单步调试，最后流程成功执行完成
 
     ![Demo](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/DebugAndNote/DD-14.png)
 
