@@ -6,7 +6,7 @@
 
 
 ## 错误处理
-2. 搜索**错误捕捉（Try Catch）**组件并拖拽至设计面板，重命名为**2.ConsolePanelPreviewr**
+2. 搜索**错误捕捉（Try Catch）**组件并拖拽至设计面板，重命名为**2.ConsolePanelPreview**
 3. 将其和**流程决策**的True分支连接
 
 ![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/web/2.png)
