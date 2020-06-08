@@ -54,7 +54,7 @@
 
 最终，项目如下所示：
 
-![Excel设置单元格示例](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/OfficeExcel/Excel-setTheCell.PNG)
+![Excel设置单元格示例](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/OfficeExcel/Excel-setTheCell.jpg)
 
 ## 运行自动化项目
 在运行面板中，点击“运行”，将会自动打开一个Excel文件，并进行相关操作。在日志面板中，可以看到，合并单元格后的数据被打印出来。
