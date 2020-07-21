@@ -29,7 +29,7 @@
 
 7. 搜索**打开浏览器**组件并拖拽至设计面板
 8. **网址**写入属性值 **"www.encoo.com/apply"**； **浏览器类型**选择**Chrome**
-<table><td bgcolor=	#F0F8FF>仅当Chrome插件安装后，才可以使用Chrome浏览器运行流程 （IE运行流程不需要安装插件）。具体安装帮助请点击<a href=https://academy.bottime.com/zh-cn/wiki/Studio/Extensions/ChromeExtension.md>这里 </a>查看</td></table>
+<table><td bgcolor=	#F0F8FF>仅当Chrome插件安装后，才可以使用Chrome浏览器运行流程 （IE运行流程不需要安装插件）。参看 <a href="https://academy.encoo.com/zh-cn/wiki/Studio/Extensions/ChromeExtension.md?uuid=2b67286f-eb39-48ce-8706-f2355167215f">Chrome 扩展 </a>。</td></table>
 
 9. 搜索**点击**组件并拖拽至**打开浏览器**组件内
 10. 点击**指定元素**，将鼠标放到**立即注册**高亮显示时，点击
