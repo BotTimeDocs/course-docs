@@ -94,7 +94,7 @@
 
 2. 录制宏并修改。
 
-    <video webkit-playsinline="isiPhoneShowPlaysinline" playsinline="isiPhoneShowPlaysinline" src="http://mpvideo.qpic.cn/0bf2fuaa4aaajuagdnbkrnpvalodbywqadqa.f10002.mp4?dis_k=c8f942b9a22012191e154407d75f9ae7&amp;dis_t=1597132290" preload="metadata"></video>
+    <video src="https://docimages.blob.core.chinacloudapi.cn/images/Practice/SplitExcel/录制宏.mp4" controls="controls" width="800px" />
 
 3. 在*执行宏*组件中，使用宏文件。
 
