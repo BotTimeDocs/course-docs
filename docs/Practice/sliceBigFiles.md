@@ -94,7 +94,7 @@
 
 2. 录制宏并修改。
 
-    <video src="https://docimages.blob.core.chinacloudapi.cn/images/Practice/SplitExcel/录制宏.mp4" controls="controls" width="800px" />
+    <video src="https://docimages.blob.core.chinacloudapi.cn/images/Practice/SplitExcel/录制宏.mp4" controls="controls" width="750px" />
 
 3. 在*执行宏*组件中，使用宏文件。
 
