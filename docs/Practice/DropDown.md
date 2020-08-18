@@ -28,3 +28,5 @@
 
 ### 借助延迟选择选项
 根据帮助信息的提示，我们可以借助快捷键 F2，延迟5秒。在5秒中，我们可以点击打开下拉菜单，选中对应选项。如下视频所示：
+
+<video src="https://docimages.blob.core.chinacloudapi.cn/images/Practice/DropDown/%E9%80%89%E6%8B%A9%E9%A1%B9%E7%9B%AE.mp4" controls="controls" width="700px" />
