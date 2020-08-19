@@ -59,11 +59,12 @@
 获取的数据格式如下：
 
 ```
- {
+{
      "msg":"查询成功!",
      "v_code":"185,78",
      "errCode":0,
-     "v_type":"sld"}
+     "v_type":"sld"
+}
 ```
 
 对于返回的数据，我们还需要进一步加工。使用*执行 C# 代码*组件，执行以下代码，获取 *v_code* 字段中的第一个数据。这个数据就是我们想要的偏移量数据。
@@ -90,3 +91,6 @@ catch (Exception ex)
 以下是流程执行过程的视频：
 
 <video src="https://docimages.blob.core.chinacloudapi.cn/images/Practice/SlidePic/%E6%BB%91%E5%8A%A8%E9%AA%8C%E8%AF%81.mp4" controls="controls" width="700px" />
+
+570001
+005760
