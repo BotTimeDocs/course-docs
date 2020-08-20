@@ -91,3 +91,5 @@ catch (Exception ex)
 以下是流程执行过程的视频：
 
 <video src="https://docimages.blob.core.chinacloudapi.cn/images/Practice/SlidePic/%E6%BB%91%E5%8A%A8%E9%AA%8C%E8%AF%81.mp4" controls="controls" width="700px" />
+
+对应的演示流程已经上传云扩流程市场，参看[拼图滑块验证](https://marketplace.encoo.com/#/workflow/detail?lang=zh-cn&packageId=%E6%8B%BC%E5%9B%BE%E6%BB%91%E5%9D%97%E9%AA%8C%E8%AF%81)。

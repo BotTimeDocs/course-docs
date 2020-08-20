@@ -64,3 +64,5 @@
 完整的流程编辑请参考以下视频：
 
 <video src="https://docimages.blob.core.chinacloudapi.cn/images/Practice/slideCert/%E6%BB%91%E5%9D%97%E9%AA%8C%E8%AF%81%E7%A0%81.mp4" controls="controls" width="700px" />
+
+对应的演示流程已经上传云扩流程市场，参看[拼图登录验证](https://marketplace.encoo.com/#/workflow/detail?lang=zh-cn&packageId=%E6%BB%91%E5%9D%97%E7%99%BB%E5%BD%95%E9%AA%8C%E8%AF%81)。
