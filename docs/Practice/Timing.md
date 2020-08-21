@@ -15,7 +15,9 @@
 1. 此处将 .json 文件命名为 *robot.exe.json*。
 2. 根据流程文件所在位置，按不同规格写入 .json 文件：
     - 假如你希望调用在云扩编辑器中创建的 RPA 流程项目，请按照以下格式（其中的文件夹路径是在编辑器中创建项目时所在的项目目录）：
+
         > {"ProjectPath":"C:\Users\{UserAccount}\Documents\Encoo\\{ProjectFolder}"}
+    
     - 假如你希望调用已导入本地机器人的 RPA 流程项目，请按照以下格式：
         ```
         {
