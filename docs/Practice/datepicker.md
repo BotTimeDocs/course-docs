@@ -52,16 +52,16 @@
 ```
 isTrue=false;
 for(int i=0;i\<dt.Rows.Count;i++){
-    for(int j=0;j\<dt.Columns.Count;j++){
-        if(dt.Rows[i][j].Equals(年)){
-        i=i+1;
-        j=j+1;
-        isTrue=true;
-        break;
-    }else{
-        continue;
-        }
-    }
+    for(int j=0;j\<dt.Columns.Count;j++){
+        if(dt.Rows[i][j].Equals(年)){
+        i=i+1;
+        j=j+1;
+        isTrue=true;
+        break;
+    }else{
+        continue;
+        }
+    }
 }
 ```
 
