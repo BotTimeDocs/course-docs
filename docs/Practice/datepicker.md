@@ -49,19 +49,21 @@
 
 附上查找年份代码：
 
-    ```isTrue=false;\
-    for(int i=0;i\<dt.Rows.Count;i++){\
-        for(int j=0;j\<dt.Columns.Count;j++){\
-            if(dt.Rows[i][j].Equals(年)){\
-            i=i+1;\
-            j=j+1;\
-            isTrue=true;\
-            break;\
-        }else{\
-            continue;\
-            }    \
-        }\
-    }```
+```
+isTrue=false;
+for(int i=0;i\<dt.Rows.Count;i++){
+    for(int j=0;j\<dt.Columns.Count;j++){
+        if(dt.Rows[i][j].Equals(年)){
+        i=i+1;
+        j=j+1;
+        isTrue=true;
+        break;
+    }else{
+        continue;
+        }
+    }
+}
+```
 
 4. 使用*流程决策*组件，根据 isTrue 判断下一步操作：
     ![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/datepicker/%E5%88%A4%E6%96%AD%E7%BF%BB%E9%A1%B5)
