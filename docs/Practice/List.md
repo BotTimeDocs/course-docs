@@ -15,4 +15,4 @@ RPA 项目实际交付时，会有很多用到 List 的场景，比如：
 ## 删除 Excel 文件中的指定行
 本文介绍借助 List 数据源类型，实现删除 Excel 文件中指定行的操作。
 
-<video src="https://docimages.blob.core.chinacloudapi.cn/images/Practice/List/%E5%88%A0%E9%99%A4%E6%8C%87%E5%AE%9A%E8%A1%8C%E6%95%B0%E6%8D%AE.mp4" controls="controls" width="700px" />
+<video src="https://docimages.blob.core.chinacloudapi.cn/images/Practice/List/%E9%9A%94%E8%A1%8C%E5%88%A0%E9%99%A4%E6%95%B0%E6%8D%AE-%E5%8A%A0%E5%AD%97%E5%B9%95_2.mp4" controls="controls" width="700px" />
