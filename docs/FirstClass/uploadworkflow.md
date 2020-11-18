@@ -6,7 +6,7 @@
 1. 打开流程“demo”。
 2. 点击“**上传**”，选择上传到控制台
 3. 选择资源组，点击**发布**
-![workflow](https://docimages.blob.core.chinacloudapi.cn/images/Kris/robotrunjob/uploadworkflow.png)
+![workflow](https://docimages.blob.core.chinacloudapi.cn/images/Kris/robotrunjob/uploadworkflow.jpg)
 
 发布成功后，打开浏览器登录控制台（https://console.encoo.com/ ） ，你可以在**流程包管理**找到上传的流程包。
 ![workflow](https://docimages.blob.core.chinacloudapi.cn/images/Kris/robotrunjob/viewworkflow.png)
