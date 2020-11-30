@@ -92,6 +92,4 @@
    >
    > 写入区域勾选添加列头。
 
-至此，从 JSON 中获取指定区域的流程已开发完毕，保存并运行流程。下面流程运行视频供参考：
-
-   <video src="https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/JSON/video.mp4"></video>
+至此，从 JSON 中获取指定区域的流程已开发完毕，保存并运行流程。
