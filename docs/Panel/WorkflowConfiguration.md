@@ -27,6 +27,7 @@
 
 ![devmode](https://docimages.blob.core.chinacloudapi.cn/images/Kris/academy/secoundworkflow/addworkflow.png)
 
+
 初始化流程组件时，系统将根据参数列表及参数类型，在模拟界面加载出参数对应的默认组件。 以下为参数类型及其对应的默认组件类型：
 
 - Boolean：是/否
@@ -78,8 +79,8 @@
    >
    > 目前我们只支持流水响应式页面布局，未来我们将开放更多元的布局方式供用户定义界面。
 
-    ![devmode](https://docimages.blob.core.chinacloudapi.cn/images/Kris/academy/secoundworkflow/workflow4.png)
 
+   ![devmode](https://docimages.blob.core.chinacloudapi.cn/images/Kris/academy/secoundworkflow/workflow4.png)
 
 
 完成以上步骤后，点击右上角保存，第一个小程序就完成啦。
