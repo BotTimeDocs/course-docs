@@ -80,7 +80,6 @@
    > 目前我们只支持流水响应式页面布局，未来我们将开放更多元的布局方式供用户定义界面。
 
 
-![devmode](https://docimages.blob.core.chinacloudapi.cn/images/Kris/academy/secoundworkflow/workflow4.png)
-
+   ![全局配置](https://docimages.blob.core.chinacloudapi.cn/images/Kris/academy/secoundworkflow/workflow4.png)
 
 完成以上步骤后，点击右上角保存，第一个小程序就完成啦。
