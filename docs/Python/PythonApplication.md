@@ -20,6 +20,7 @@
 3. 在组件面板找到**Python环境**组件，并拖入到设计面板。属性配置如下：
     - **Python环境路径：** 若为空则默认读取当前计算机Python环境变量。（参考： @"C:\Users\jingk\AppData\Local\Programs\Python\Python39"）
     - **工作目录：** 指定Python文件的工作目录。本课程中为空
+    - 
     ![Python](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/Python/Python-1.png)
 
 4. 在组件面板找到**执行Python代码**组件，并拖入到**Python环境**组件内。此时会在**项目目录**->**.code**->**Python**下自动生成一个名为执行Python代码.py的文件。
@@ -63,6 +64,7 @@
 8. 将**写入日志**组件拖入到设计面板，属性配置如下：
 
     **日志内容：** 将计算结果输出到日志
+
     ![Python](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/Python/Python-5.png)
 
 9. 点击**运行**，在输出面板查看执行结果，如下图：
