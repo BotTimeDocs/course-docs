@@ -17,42 +17,42 @@
     ![1](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extra/Library/new%20Library.png)
 
 2. 打开参数列表，创建 5 个字符串型（String）的输入参数，其将作为发布后组件的输入属性：
-   - Excel 文件 -- 要替换文本的 Excel 文件所在路径
-   - 工作表 -- 要替换文本的的 Excel 文件工作表
-   - 单元格地址 -- 要替换文本的 Excel 文件单元格
-   - 原文本 -- 要进行替换的原文本
-   - 新文本 -- 要替换成的文本
+    - Excel 文件 -- 要替换文本的 Excel 文件所在路径
+    - 工作表 -- 要替换文本的的 Excel 文件工作表
+    - 单元格地址 -- 要替换文本的 Excel 文件单元格
+    - 原文本 -- 要进行替换的原文本
+    - 新文本 -- 要替换成的文本
 
     ![1](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extra/Library/arguments.png)
 
 3. 从组件面板搜索“打开 / 新建”组件，并将其拖入到编辑区域连接至开始节点
 4. 在该组件的属性面板，输入以下内容：
-   - 文件路径：Excel 文件
+    - 文件路径：Excel 文件
 
     ![1](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extra/Library/openNew.png)
 
 5. 从组件面板搜索“读取单元格”组件，并将其拖入到“打开 / 新建”组件内部
 6. 在该组件的属性面板，输入以下内容：
-   - 工作表：工作表
-   - 单元格：单元格地址
-   - 单元格内容： 单元格内容 --- 单击该字段后的输入框，输入**单元格内容**作为变量名称，全选**单元格内容**并使用快捷键 **Ctrl+B** 创建该变量
+    - 工作表：工作表
+    - 单元格：单元格地址
+    - 单元格内容： 单元格内容 --- 单击该字段后的输入框，输入**单元格内容**作为变量名称，全选**单元格内容**并使用快捷键 **Ctrl+B** 创建该变量
 
     ![1](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extra/Library/readCell.png)
 
 7. 从组件面板搜索“替换文本”组件，拖到“读取单元格”组件下方
 8. 在该组件的属性面板，输入以下内容：
-   - 查找内容：原文本
-   - 新内容：新文本
-   - 源文本：单元格内容
-   - 替换结果：结果 -- 单击该字段后的输入框，输入**结果**为变量名称，全选**结果**并使用快捷键 **Ctrl+B** 创建该变量
+    - 查找内容：原文本
+    - 新内容：新文本
+    - 源文本：单元格内容
+    - 替换结果：结果 -- 单击该字段后的输入框，输入**结果**为变量名称，全选**结果**并使用快捷键 **Ctrl+B** 创建该变量
 
     ![1](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extra/Library/replaceText.png)
 
-9. 从组件面板搜索“写入单元格”组件，拖到“替换文本组件下方
+9.  从组件面板搜索“写入单元格”组件，拖到“替换文本组件下方
 10. 在该组件的属性面板，输入以下内容：
-    - 数据：结果
-    - 单元格：单元格地址
-    - 工作表：工作表
+     - 数据：结果
+     - 单元格：单元格地址
+     - 工作表：工作表
 
     ![1](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extra/Library/writeCell.png)
 
@@ -62,17 +62,17 @@
 
 1. 首先，我们需要创建一个组件市场，来存放我们的组件。打开开始主页，来到设置下的管理市场
 2. 点击加号（+），开始创建市场
-   - 输入市场名称，如“Test”
-   - 输入市场地址，可以使用本地文件夹路径，如“E:\ActivityMarket”
-   - 勾选“启用”按钮，启用该组件市场
+    - 输入市场名称，如“Test”
+    - 输入市场地址，可以使用本地文件夹路径，如“E:\ActivityMarket”
+    - 勾选“启用”按钮，启用该组件市场
 
     ![1](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extra/Library/manageMarkets.png)
 
 3. 返回编辑主页，点击菜单栏的“发布到组件市场”，打开发布窗口
-   - 选择刚刚创建的目标市场
-   - （可选）填写最新版本号，标识发布的版本。此处使用默认值
-   - 填入此组件的描述信息，如“Excel 文本替换组件支持将 Excel 中符合条件的指定单元格文本内容替换为期望值。”
-   - （可选）将项目中使用的所有依赖项打包到流程包中
+    - 选择刚刚创建的目标市场
+    - （可选）填写最新版本号，标识发布的版本。此处使用默认值
+    - 填入此组件的描述信息，如“Excel 文本替换组件支持将 Excel 中符合条件的指定单元格文本内容替换为期望值。”
+    - （可选）将项目中使用的所有依赖项打包到流程包中
 
     ![1](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extra/Library/publish.png)
 
@@ -99,11 +99,11 @@
 
 5. 从组件面板中，将“替换文本”组件拖入到编辑区域并连接到开始节点
 6. 在该组件的属性面板，输入以下内容：
-   - Excel 文件：“E:\demo.xlsx” -- 要替换文本的 Excel 文件所在路径
-   - 工作表：“Sheet1” -- 要替换文本的的 Excel 文件工作表
-   - 单元格地址：“B1” -- 要替换文本的 Excel 文件单元格
-   - 原文本：“云扩” -- 要进行替换的原文本
-   - 新文本：“Encoo” -- 要替换成的文本
+    - Excel 文件：“E:\demo.xlsx” -- 要替换文本的 Excel 文件所在路径
+    - 工作表：“Sheet1” -- 要替换文本的的 Excel 文件工作表
+    - 单元格地址：“B1” -- 要替换文本的 Excel 文件单元格
+    - 原文本：“云扩” -- 要进行替换的原文本
+    - 新文本：“Encoo” -- 要替换成的文本
 
     ![1](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extra/Library/useReplaceText.png)
 
