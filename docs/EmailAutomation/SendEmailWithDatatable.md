@@ -42,7 +42,7 @@
 </html>
   ```
 
-   ![](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/SendEmailWithDatatable/202122SendEmailWithDatatable2.png)  
+  ![代码内容](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/SendEmailWithDatatable/202122SendEmailWithDatatable2.png)  
 
 2. 创建并打开项目：
 
