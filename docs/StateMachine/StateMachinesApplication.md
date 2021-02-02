@@ -4,9 +4,10 @@
 
 ## **准备工作**
 
-1. 准备开发流程的电脑，请打开云扩学院链接查看云扩RPA编辑器运行的硬件&软件要求（https://academy.encoo.com/wiki/Studio/quickStart/HarewareAndSoftwareRequirements.md?）。
+1. 准备开发流程的电脑，请打开云扩学院链接查看云扩RPA编辑器运行的硬件&软件要求
+https://academy.encoo.com/wiki/Studio/quickStart/HarewareAndSoftwareRequirements.md?
 
-2. 打开云扩官网（https://www.encoo.com/）下载编辑器并安装（本节课使用编辑器版本为：1.1.2010.9）。
+2. 打开云扩官网(https://www.encoo.com/)下载编辑器并安装（本节课使用编辑器版本为：1.1.2010.9）。
 
 ## **操作流程**
 
