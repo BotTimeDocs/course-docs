@@ -121,4 +121,4 @@
 
 至此，整个流程已开发完成，点击保存并运行，即可读取PDF文件中的发票号和金额并插入到Mysql数据库中。以下视频供参考：
 
-<video src="https://docimages.blob.core.chinacloudapi.cn/images/Course/Video/fileReader-Final.mp4" controls="controls" width="500px" />
+<video src="https://docimages.blob.core.chinacloudapi.cn/images/Course/Video/fileReader-Final.mp4" controls="controls" width="700px" />

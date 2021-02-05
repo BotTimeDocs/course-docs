@@ -55,4 +55,5 @@
 7. 拖入**复制/移动文件**组件，输入源文件路径（将以上操作步骤中获取的文件名称与默认下载路径名称进行拼接：<font color=#0000FF>  filePath(' ')[1] + "\" + fileName </font>）与目标路径(<font color=#0000FF>  destFolderPath + "\" + fileName </font>)并选择“移动”方式：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Course/getDownloadFilesFromChrome/getDownloadFile-13.png)
 至此，整个流程开发完成。以下视频供参考：
-<video src="https://docimages.blob.core.chinacloudapi.cn/images/Course/getDownloadFilesFromChrome/SavesDownloadedFilesToDestinationPath-edited.mp4" controls="controls" width="500x" />
+
+<video src="https://docimages.blob.core.chinacloudapi.cn/images/Course/getDownloadFilesFromChrome/SavesDownloadedFilesToDestinationPath-edited.mp4" controls="controls" width="700x" />
