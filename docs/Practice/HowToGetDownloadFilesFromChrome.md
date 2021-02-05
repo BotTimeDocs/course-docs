@@ -1,4 +1,5 @@
-# Chrome浏览器下载的文件保存至指定路径下 
+# Chrome浏览器下载的文件保存至指定路径下
+
 大家好，当我们遇到在Chrome浏览器上下载文件后保存到指定文件路径的场景时，通常采取的方案相对较多的是手动设置Chrome下载文件路径，但也有些特定的场景中不合适让用户去修改浏览器设置。那么，如何通过RPA从默认的下载路径获取到文件并保存到指定的路径下呢？尤其是在每位用户的默认下载文件路径不相同的情况下（即默认路径为动态的）。
 
 接下来我们以下载云扩编辑器安装包为例，一起看看具体的开发过程。
@@ -10,12 +11,14 @@
 2. 打开云扩官网（https://www.encoo.com/） 下载编辑器并安装。
 3. 注册云扩社区版控制台账号。
 
-## **流程设计图示：**
+## **流程设计图示**
+
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Course/getDownloadFilesFromChrome/getDownloadFile-1.png)
 
-## **流程操作步骤：**
+## **流程操作步骤**
 
 ### **登录云扩控制台网站**
+
 1. （创建项目步骤略过）拖入**打开浏览器**组件，并指定网址，选择浏览器类型为**Chrome**:
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Course/getDownloadFilesFromChrome/getDownloadFile-2.png)
 
@@ -29,6 +32,7 @@
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Course/getDownloadFilesFromChrome/getDownloadFile-5.png)
 
 ### **下载Studio并保存至指定文件路径下**
+
 1. 拖入**流程图**组件用来模块化流程下载并将文件移至目标文件夹部分；拖入**点击**组件，指定“下载”元素：
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Course/getDownloadFilesFromChrome/getDownloadFile-6.png)
 
