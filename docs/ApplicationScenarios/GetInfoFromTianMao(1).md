@@ -2,7 +2,6 @@
 
 这节课我们来看看一个真实案例 - 获取天猫买家评价并存入Excel文件的流程是如何开发的。题外话，相信所有的商家对买家的评价都极其关注，就像我们也很在乎所有小伙伴在使用云扩RPA编辑器开发流程后对我们云扩RPA产品的评价一样，好评、差评对我们都很重要，所以，很期待你使用后的真实感受反馈。言归正传，我们继续讨论本节课流程开发的步骤及思路。
 
-
 ## **准备工作**
 
 1. 准备开发流程的电脑，请打开云扩学院链接查看云扩 RPA 编辑器运行的硬件&软件要求（<https://academy.encoo.com/wiki/Studio/quickStart/HarewareAndSoftwareRequirements.md?>）。
@@ -13,6 +12,7 @@
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/GetInfoFromTianMao/getInfoFromTianMao-1.png)
 
 ## **流程设计图示：**
+
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/GetInfoFromTianMao/getInfoFromTianMao-2.png)
 （<font color=#0000FF> 本节课完成开发至搜索店铺模块，下节课接着开发剩下的模块并运行流程 </font>）
 ## **流程操作步骤：**
