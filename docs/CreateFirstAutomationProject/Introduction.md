@@ -19,12 +19,12 @@
 
 对于流程文件，分为**序列**和**流程图**两种类型。序列是一个线性过程，可以充当单个的组件块，而流程图则主要用于更加复杂的业务流程。
 
-每一个自动化流程都是由许多个不同的**组件**组成，每一个组件都被赋予不同的功能，通过将每个组件连接起来，让其相互配合，就可以轻轻松松将复杂的业务流程转换成自动化流程，从而提升工作效率。有关组件的详细信息，请查看[云扩组件库](https://academy.encoo.com/zh-cn/wiki/Activities/ComponentsIntroduction.md)。
+每一个自动化流程都是由许多个不同的**组件**组成，每一个组件都被赋予不同的功能，通过将每个组件连接起来，让其相互配合，就可以轻轻松松将复杂的业务流程转换成自动化流程，从而提升工作效率。有关组件的详细信息，请查看[云扩组件库](https://academy.encoo.com/zh-cn/wiki/Activities/README.md?uuid=9f790d12-315d-4aa2-b69f-7ed0d02997a5)。
 
 **变量**来源于数学，在初等数学中，变量是表示数字的字母字符，具有任意性和未知性。
-通常，在数学公式中，变量存储的是数字。而在云扩RPA编辑器中，变量存储的是各种类型的值，其主要用于数据传递。有关变量的详细信息，请查看[变量](https://academy.encoo.com/zh-cn/wiki/Studio/Variables/Variables.md)。
+通常，在数学公式中，变量存储的是数字。而在云扩RPA编辑器中，变量存储的是各种类型的值，其主要用于数据传递。有关变量的详细信息，请查看[变量](https://academy.encoo.com/zh-cn/wiki/Studio/process/developProject/Variables/Variables.md?uuid=0bd627d9-3f75-4c38-b9a2-dbc571686b21)。
 
-**智能录制器**的存在，为你在自动化业务流程时节省了大量时间，它可以轻松地在屏幕上捕捉用户操作将其转换为一个序列存储下来。有关录制器的详细信息，请查看[智能录制](https://academy.encoo.com/zh-cn/wiki/Studio/Recording/Recording.md)。
+**智能录制器**的存在，为你在自动化业务流程时节省了大量时间，它可以轻松地在屏幕上捕捉用户操作将其转换为一个序列存储下来。有关录制器的详细信息，请查看[智能录制](https://academy.encoo.com/zh-cn/wiki/Studio/process/developProject/Recording/Recording.md?uuid=be7cd362-e18a-4074-97bb-a949374bfccf)。
 
 若想创建自动化项目，将从编辑器主界面开始操作，通过项目面板的新建项目创建自动化项目，然后使用组件面板的各种组件编辑自动化流程，让其成为更有效的业务工具。有关编辑器主界面的详细信息，请查看[用户界面](https://academy.encoo.com/zh-cn/wiki/Studio/Introduction/TheUserInterface.md)。
 
