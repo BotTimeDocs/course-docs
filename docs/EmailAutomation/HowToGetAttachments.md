@@ -54,7 +54,7 @@
 
 ## 循环获取的邮件并将附件保存至指定目录
 
-1. 双击【循环操作（For Each）】打开
+1. 双击【循环操作（For Each）】打开，该组件的使用，可参见[循环操作（For Each）](https://academy.encoo.com/zh-cn/wiki/Activities/WorkflowControl/Loop/ForEach.md?uuid=fa55282c-def5-4639-a36e-157189b60df7)。
 2. 将【写入日志】组件和【保存附件】相继拖拽进来
 3. 在【写入日志】组件的【日志内容】文本框输入 **"邮件标题: "+item.Subject**，用于执行后在日志查看获取到了哪些邮件
 4. 在【保存附件】组件的【邮件】文本框输入 **item** 
