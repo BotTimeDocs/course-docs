@@ -5,12 +5,15 @@
 本文主要针对那些不支持直接输入，必须通过点击才能操作的日期选择框。本文以 AntDesign 基础日期选择框为例，选择指定日期。
 
 ## 操作思路
+
 指定日期后，在页面中依次选择年，月和日。
 
 ## 前提条件
+
 已打开 [AntDesign 基础日期选择框](https://ant.design/components/date-picker-cn/)。
 
 ## 根据系统时间和增量，确定指定时间
+
 把我们需要指定的时间分别保存在 *年*，*月*，*日* 三个变量中。
 
 1. 拖入 *流程图* 组件，重命名为*获取年月日*：
@@ -27,8 +30,14 @@
 - *月*：`System.DateTime.Now.AddMonths(月份增量).ToString(*MM*).TrimStart('0')`
 - *日*：`System.DateTime.Now.AddDays(日期增量).ToString(*dd*)`
 
+    >**说明：**
+    >
+    >本案例中打开的网页支持显示日为“01”的格式，若打开的网页不支持显示此格式，需使用`System.DateTime.Now.AddDays(日期增量).ToString(*dd*).TrimStart('0')`，以去除个位上的`0`。
+
 ## 在日期选择框中选择时间
+
 ### 点击日期选择框
+
 拖入*点击*组件，指定日期输入框元素。
 
 ![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/datepicker/%E7%82%B9%E5%87%BB%E6%97%A5%E6%9C%9F%E9%80%89%E6%8B%A9%E6%A1%86)
