@@ -27,8 +27,8 @@
     - *日期增量*。
 
 赋值代码为：
-- *月*：`System.DateTime.Now.AddMonths(月份增量).ToString(*MM*).TrimStart('0')`
-- *日*：`System.DateTime.Now.AddDays(日期增量).ToString(*dd*)`
+- *月*：`System.DateTime.Now.AddMonths(月份增量).ToString("MM").TrimStart('0')`
+- *日*：`System.DateTime.Now.AddDays(日期增量).ToString("dd")`
 
     >**说明：**
     >
