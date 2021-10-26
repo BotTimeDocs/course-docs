@@ -7,4 +7,4 @@
 3. 版本对比
 4. 示例操作
 
-<iframe src="//player.bilibili.com/player.html?aid=890167346&bvid=BV1QP4y1p7HL&cid=400077133&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"  width="700px" height="472px"> </iframe>
+<video controls height='100%' width='100%' src="https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/RobotIntruduction.mp4"> </video>
