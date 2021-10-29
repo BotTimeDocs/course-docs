@@ -1,11 +1,14 @@
 # 获取分隔列数据
+
 此节课程将讲述如何使用**获取结构化数据**组件获取到分隔列数据
 
 ## 准备工作
+
 1. 打开云扩**编辑器**，新建一个空白项目，搜索**序列**组件并拖拽至设计面板，设为开始结点,双击打开序列
 2. 打开Chrome浏览器，输入 **"http://www.chinaports.com/chuanqibiao/2/null/null/null/query"** 并点击跳转
 
 ## 绑定浏览器
+
 此步骤将演示如何获取已打开的浏览器内数据
 
 注意：在运行时，请保持绑定的浏览器处于打开状态；否则**绑定浏览器**会失败，流程报错并退出
@@ -16,6 +19,7 @@
 ![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/ExtractStructruedData/attach.png)
 
 ## 获取分隔列数据
+
 5. 搜索**获取结构化数据**组件并拖拽放置于**绑定浏览器**内
 6. 点击**指定数据源**，将鼠标放到表内第一个单元格上，高亮显示时点击
 
@@ -66,6 +70,7 @@
 ![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/ExtractStructruedData/result.png)
 
 ## 如何在编辑器中下载并使用本课程示例
+
 1. 打开编辑器，在工具栏点击【流程市场】
 2. 搜索此课程名称即可找到此流程
 3. 选中流程并点击【下载】图标，在【新建项目】弹窗中输入【项目名称】
