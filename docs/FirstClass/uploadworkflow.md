@@ -3,13 +3,17 @@
 ## 上传流程到控制台
 
 打开编辑器
-1. 打开流程“demo”。
-2. 点击“**上传**”，选择上传到控制台
-3. 选择资源组，点击**发布**
-![workflow](https://docimages.blob.core.chinacloudapi.cn/images/Kris/robotrunjob/uploadworkflow.jpg)
 
-发布成功后，打开浏览器登录控制台（https://console.encoo.com/ ） ，你可以在**流程包管理**找到上传的流程包。
-![workflow](https://docimages.blob.core.chinacloudapi.cn/images/Kris/robotrunjob/viewworkflow.png)
+1. 打开流程“demo”。
+2. 点击菜单栏“**发布 > 控制台**”。
+
+    ![workflow](https://docimages.blob.core.chinacloudapi.cn/images/Kris/robotrunjob/uploadworkflow.jpg)
+
+3. 选择部门，点击**发布**。
+
+4. 发布成功后，打开浏览器登录控制台（https://console.encoo.com/ ） ，你可以在**流程包管理**找到上传的流程包。
+
+    ![workflow](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/viewworkflow20211101.png)
 
 ## 安装机器人并激活
 
@@ -24,13 +28,16 @@
 ![workflow](https://docimages.blob.core.chinacloudapi.cn/images/Kris/robotrunjob/connectrobot2.gif)
 
 ## 使用机器人运行流程
+
 与控制台连接激活的机器人，可以运行用户上传到控制台的流程。
+
 1. 双击桌面机器人打开“**流程库**”
 2. 点击“**在线流程库**”
 3. 找到流程并点击“**执行**”即可运行流程
 ![workflow](https://docimages.blob.core.chinacloudapi.cn/images/Kris/robotrunjob/robotworkflow.png)
 
 ## 小结
+
 通过上述课程，我们初步窥探了RPA的样貌。
 
 云扩致力于打造 “简单，智能，人人可用” 的产品，希望我们的努力能让更多的人感受到科技带给人类的便捷，将人们从枯燥重复的电脑工作中解放出来。
@@ -40,16 +47,3 @@
 接下来，您可以根据您的需求，选择不同的学习路径。
 
 祝您的RPA之旅愉快！
-
-
-
-
-
-
-
-
-
-
-
-
-
