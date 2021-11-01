@@ -4,8 +4,8 @@
 
 在有两个记事本打开的情况下，使用图像识别的元素定位方法，**点击**打开指定文件的页面设置，**输入文本**到页眉，通过**发送快捷键**的方式关闭页面设置界面，通过**等待元素消失**判断是否关闭成功并将结果**写入日志**
 
-
 ## 准备工作
+
 1. 打开两个**记事本**文件，一个命名为**Target.txt**,另一个使用默认名称**Untitled.txt**
 
 ![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/OCR/TwoNotepad.png)

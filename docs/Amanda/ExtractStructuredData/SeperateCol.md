@@ -61,10 +61,12 @@
 17. 点击**获取结构化数据**组件，输出**数据表**属性写入**dt**
 
 ## 预览数据表
+
 18. 搜索**预览数据表**组件并拖拽放置于**序列**内
 19. **数据表**属性写入**dt**
 
 ## 运行查看结果
+
 20. 点击**运行**按钮，可看到获取的第一页数据在运行时被展示了出来
 
 ![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/ExtractStructruedData/result.png)
