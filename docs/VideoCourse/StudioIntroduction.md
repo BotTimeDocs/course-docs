@@ -7,4 +7,4 @@
 3. 功能简介
 4. 流程示例
 
-<video controls height='100%' width='100%' src="https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/StudioIntruduction.mp4"> </video>
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/course/StudioIntruduction.mp4"> </video>

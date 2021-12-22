@@ -6,4 +6,4 @@
 2. 流程业务场景介绍
 3. 流程开发实操
 
-<video controls height='100%' width='100%' src="https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/ProductionMartrix.mp4"></video>
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/course/ProductionMartrix.mp4"></video>

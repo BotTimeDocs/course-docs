@@ -7,4 +7,4 @@
 3. 版本对比
 4. 示例操作
 
-<video controls height='100%' width='100%' src="https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/RobotIntruduction.mp4"> </video>
+<video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/course/RobotIntruduction.mp4"> </video>
