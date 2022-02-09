@@ -33,7 +33,7 @@
 |                  | 机器人管理 |  支持   | 支持       |支持     |
 |                  | 调度队列   |        | 支持       | 支持     |
 |                  | 任务记录   |        | 支持       | 支持     |
-| 小程序管理        |            |        | 支持        |   支持  |
+| ViCode管理        |            |        | 支持        |   支持  |
 | 数据中心         |            |        | 支持       | 支持     |
 | 全局管理         |   用户管理  |        | 支持       | 支持    |
 |                 |   角色管理  |        | 支持       | 支持    |
@@ -71,7 +71,7 @@
 ![Consoleintroduction](https://docimages.blob.core.chinacloudapi.cn/images/Console/Consoleintroduction7.png)
 
 
-- **小程序管理**：主要用于管理云扩小程序中编辑并上传到控制台的小程序，包括查看小程序、管理小程序、删除小程序等功能。
+- **ViCode管理**：主要用于管理云扩ViCode中编辑并上传到控制台的ViCode，包括查看ViCode、管理ViCode、删除ViCode等功能。
 
 
 ![Consoleintroduction](https://docimages.blob.core.chinacloudapi.cn/images/Console/consoleapps.png)
