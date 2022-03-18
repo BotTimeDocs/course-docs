@@ -2,6 +2,35 @@
 
 通过本视频，了解云扩 RPA 最新产品矩阵、自动化初级到高级知识概览，主要包括如下几方面：
 
-![课程大纲](https://docimages.blob.core.chinacloudapi.cn/images/Course/guideline.png)
+1. 第一小节：RPA超级自动化相关产品demo演示
+
+    - 内容1、知识点说明：云扩RPA的学习主要分为5个模块部分。
+    - 内容2、RPA超级自动化demo演示 +创建第一个自动化流程项目
+    - 内容3、机器人+控制台管理功能+低代VIcode
+    - 内容4、 RPA入门开发基础知识
+
+2. 第二小节：Excel+流程控制使用
+
+    - 内容5、Office Excel自动化操作
+    - 内容6、桌面自动化操作项目——记事本 自动化 hello word
+    - 内容7、邮件自动化操作——服务器配置发送邮件小demo
+    - 内容8、网页自动化——数据抓取流程&遍历Excel内容至网页
+    - 内容9、手机自动化操作
+
+3. 第三小节：自动化进阶学习
+
+    - 内容10、选择器详解——自动化入门
+        - 知识点1、介绍选择器的节点&属性
+        - 知识点2、选择器编辑器中的信息
+        - 知识点3、 属性
+        - 知识点4、属性定位元素
+        - 知识点5、编辑属性的办法
+
+    - 内容11、选择器修改验证、不同属性实现元素验证定位
+        - 方法1、 使用通配符
+        - 方法2、使用变量
+        - 方法3、支持XPath
+
+4. 附：支持的属性列表&部分属性名说明
 
 <video controls height='100%' width='100%' src="https://encooacademy.oss-cn-shanghai.aliyuncs.com/course/product-training.mp4"> </video>
