@@ -4,24 +4,23 @@
 
 ![](https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/29/16723041398347.jpg)
 
-## RPA为什么值得大家来学 ？
+
+## 一、 RPA为什么值得大家来学 ？
+
+<iframe src="//player.bilibili.com/player.html?aid=564490538&bvid=BV1Pv4y1B7uL&cid=941565755&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"  width="700px" height="472px" > </iframe>
 
 
-<video controls height='100%' width='100%' src="https://www.bilibili.com/video/BV1Pv4y1B7uL?t=23.5"> </video>
+## 二、RPA的产品体系划分
 
-## RPA的产品体系划分
-
-
-<video controls height='100%' width='100%' src="https://www.bilibili.com/video/BV1r44y1X7JY?t=11.3"> </video>
-
-## RPA的安装与激活
+<iframe src="//player.bilibili.com/player.html?aid=987960285&bvid=BV1r44y1X7JY&cid=901290325&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="700px" height="472px"  > </iframe>
 
 
-<video controls height='100%' width='100%' src="https://www.bilibili.com/video/BV1Ue4y1p7Vm?t=1.2"> </video>
+## 三、RPA的安装与激活
 
-## 3分钟了解RPA流程搭建 —— 财务发票自动录入
+<iframe src="//player.bilibili.com/player.html?aid=647909959&bvid=BV1Ue4y1p7Vm&cid=901284844&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="700px" height="472px"  > </iframe>
 
+## 结尾: 3分钟了解RPA流程搭建 —— 财务发票自动录入
 
-<video controls height='100%' width='100%' src="https://www.bilibili.com/video/BV1d14y1W75t?t=3.5"> </video>
+<iframe src="//player.bilibili.com/player.html?aid=772581452&bvid=BV1d14y1W75t&cid=819141466&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="700px" height="472px" > </iframe>
 
 ![](https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/29/16723050031273.jpg)
