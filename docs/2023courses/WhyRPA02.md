@@ -28,5 +28,4 @@ RPA第一课 (2023年)
 
 <br><br><br>
 
-
 ![](https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2022/12/29/16723050031273.jpg)
