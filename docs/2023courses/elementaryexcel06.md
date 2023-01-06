@@ -4,6 +4,15 @@
 
 <br>
 
+**【课程目标】**
+
+<br>
+
+通过对EXCEL基础RPA组件的学习及使用，完成一个经典RPA自动化流程。通过RPA将网页上EXCEL表格抓取后存入本地Excel。
+
+<br><br>
+
+
 <img width = '600'  src ="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2023/01/04/16728188101649.jpg"/>
 
 

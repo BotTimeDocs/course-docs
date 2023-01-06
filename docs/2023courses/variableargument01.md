@@ -4,10 +4,17 @@
 
 <br>
 
-<img width = '400'  src =""/>
+**【课程目标】**
+
+<br>
+
+通过对变量、参数及RPA数据类型的学习，完成用RPA组件模拟搭建一个模拟实现计算器功能流程。冲吧~
+
+<br><br>
+
+<img width = '600'  src ="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2023/01/03/16727351319863.jpg"/>
 
 
-![](https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2023/01/03/16727351319863.jpg)
 
 <br>
 

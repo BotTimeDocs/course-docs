@@ -4,6 +4,15 @@
 
 <br>
 
+**【课程目标】**
+
+<br>
+
+通过对选择器及录制浮窗的学习完成一个你的第一个网页自动化流程吧 ~ —— 案例名称：“自动打开网站搜搜新闻并展示”
+
+<br><br>
+
+
 ![](https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2023/01/04/16728023567035.jpg)
 
 
