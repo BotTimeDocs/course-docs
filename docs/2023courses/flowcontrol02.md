@@ -51,7 +51,7 @@
 
 ### 2.1 视频教程
 
-<video controls height='100%' width='100%' src="hhttps://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2023%E8%AF%BE%E7%A8%8B/RPA%20%E7%AC%AC%E5%85%AB%E8%AF%BE/%E7%9F%A5%E8%AF%86%E7%82%B92--3%E4%B8%AA%E5%88%86%E6%94%AF%E7%BB%93%E6%9E%84%E7%BB%84%E4%BB%B6%28%E5%86%B3%E7%AD%96%E5%88%A4%E6%96%AD%29.mp4"> </video>
+<video controls height='100%' width='100%' src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2023%E8%AF%BE%E7%A8%8B/RPA%20%E7%AC%AC%E5%85%AB%E8%AF%BE/%E7%9F%A5%E8%AF%86%E7%82%B92--3%E4%B8%AA%E5%88%86%E6%94%AF%E7%BB%93%E6%9E%84%E7%BB%84%E4%BB%B6%28%E5%86%B3%E7%AD%96%E5%88%A4%E6%96%AD%29.mp4"> </video>
 
 <br><br><br>
 
