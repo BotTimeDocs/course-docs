@@ -1,4 +1,3 @@
-
 <br><br>
 
 ## 一、课程简介
@@ -421,14 +420,15 @@
 * （2）.从组件库Excel目录下找到组件`打开/新建`并拖拽至设计面板，连接在`打开浏览器`下方，在弹窗中填写相应属性，如下图示。
     
 
-> 文件路径："商品数据.xlsx"，当前项目的相对路径
+> 文件路径："商品数据.xlsx" ，当前项目的相对路径
 > 新建文件：勾选，即每次流程执行时都会新建此文件
 > 自动保存：勾选，即有新数据时则会自动保存
 > 可视：勾选，即整个操作过程可在屏幕上看到
 
 <img width = '300'  src ="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2023/01/22/16743903387400.png"/>
 
-
+<br>
+ 
 <img width = '600'  src ="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/MNpQlKErLyBLqDvL/img/b10793fc-862a-40fc-9d0b-1b92ee6360fd.png"/>
 
 
