@@ -16,7 +16,7 @@
 
 **课时内容：**
 
-> * RPA第十二课 (2023年)
+> * RPA第十三课 (2023年)
 > * 课程时长：58分钟 ,7节课时
 > * 编辑器下载：[https://www.encoo.com/download](https://www.encoo.com/download)
 
