@@ -65,7 +65,7 @@
 
 ### 2.1 视频教程：
 
-<video controls height='100%' width='100%' src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2023%E8%AF%BE%E7%A8%8B/%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%BC%96%E8%AF%91%E5%99%A8.mp4"> </video>
+<video controls height='100%' width='100%' src="https://doria-encooacademyimages.oss-cn-shanghai.aliyuncs.com/2023%E8%AF%BE%E7%A8%8B/%E5%8F%82%E6%95%B0%20VS%20%E5%8F%98%E9%87%8F.mp4"> </video>
 
 
 
