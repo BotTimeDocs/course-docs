@@ -8,15 +8,15 @@
 
 本文以 **Boss 直聘** 的登录验证为例，演示完成滑块拼图验证并顺利登录。此页面的验证模块如下：
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/SlidePic/%E9%AA%8C%E8%AF%81%E9%A1%B5%E9%9D%A2)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/SlidePic/%E9%AA%8C%E8%AF%81%E9%A1%B5%E9%9D%A2)
 
 操作流程如下：
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/SlidePic/%E6%B5%81%E7%A8%8B%E5%9B%BE.jpg)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/SlidePic/%E6%B5%81%E7%A8%8B%E5%9B%BE.jpg)
 
 操作演示参考视频：
 
-<video src="https://docimages.blob.core.chinacloudapi.cn/images/Practice/SlidePic/%E6%89%8B%E5%8A%A8%E6%93%8D%E4%BD%9C.mp4" controls="controls" width="700px" />
+<video src="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/SlidePic/%E6%89%8B%E5%8A%A8%E6%93%8D%E4%BD%9C.mp4" controls="controls" width="700px" />
 
 进行滑块拼图验证时，大部分操作和[滑块验证](https://academy.encoo.com/learn/unit-detail/35)一致，只是滑块移动距离的测量需要使用额外的工具。
 
@@ -34,13 +34,13 @@
 ### 下载尖叫数据 OCR 组件
 在组件市场中，下载*尖叫数据 OCR*组件。
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/SlidePic/%E5%B0%96%E5%8F%AB%E6%95%B0%E6%8D%AEOCR.webp)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/SlidePic/%E5%B0%96%E5%8F%AB%E6%95%B0%E6%8D%AEOCR.webp)
 
 ### 点击获取滑动页面
 
 使用*模拟鼠标*的方式，点击*圆点*元素。
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/SlidePic/%E5%9C%86%E7%82%B9.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/SlidePic/%E5%9C%86%E7%82%B9.png)
 
 ### 获取验证图片，测量偏移量
 
@@ -48,13 +48,13 @@
 
 使用 *截屏* 组件拾取需要测定的图片元素。
     
-![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/SlidePic/%E6%88%AA%E5%B1%8F.webp)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/SlidePic/%E6%88%AA%E5%B1%8F.webp)
 
 2. 测量偏移量
 
 使用*尖叫数据 OCR - 滑块验证码识别*组件，获取偏移横坐标数据。
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/SlidePic/%E8%8E%B7%E5%8F%96%E6%A8%AA%E7%A7%BB%E6%95%B0%E6%8D%AE.webp)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/SlidePic/%E8%8E%B7%E5%8F%96%E6%A8%AA%E7%A7%BB%E6%95%B0%E6%8D%AE.webp)
 
 获取的数据格式如下：
 
@@ -90,6 +90,6 @@ catch (Exception ex)
 
 以下是流程执行过程的视频：
 
-<video src="https://docimages.blob.core.chinacloudapi.cn/images/Practice/SlidePic/%E6%BB%91%E5%8A%A8%E9%AA%8C%E8%AF%81.mp4" controls="controls" width="700px" />
+<video src="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/SlidePic/%E6%BB%91%E5%8A%A8%E9%AA%8C%E8%AF%81.mp4" controls="controls" width="700px" />
 
 对应的演示流程已经上传云扩流程市场，参看[拼图滑块验证](https://marketplace.encoo.com/#/workflow/detail?lang=zh-cn&packageId=%E6%8B%BC%E5%9B%BE%E6%BB%91%E5%9D%97%E9%AA%8C%E8%AF%81)。

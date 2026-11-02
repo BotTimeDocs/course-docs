@@ -6,26 +6,26 @@
 
 1. 打开云扩**编辑器**，新建一个空白项目，搜索**错误捕捉(Try Catch)**组件并拖拽至设计面板，重命名为**1.OpenBroswer**，设为开始结点,双击打开
 
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/web/Rename.png)
+![img](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/web/Rename.png)
 
 2. 点击**添加新捕捉**
 
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/web/catch.png)
+![img](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/web/catch.png)
 
 3. 选择**System.Exception**，完成后点击下拉框右侧空白处
 
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/web/catch1.png)
+![img](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/web/catch1.png)
 
 4. 此时你可以看到下图界面。搜索**写入日志**组件并拖拽至设计面板
 
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/web/catch2.png)
+![img](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/web/catch2.png)
 
 5. **日志内容**写入属性值 **"1.Open Browser Failed"**
 
 ## 打开浏览器，点击按钮
 6. 点击**添加组件**
 
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/web/catch3.png)
+![img](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/web/catch3.png)
 
 7. 搜索**打开浏览器**组件并拖拽至设计面板
 8. **网址**写入属性值 **"www.encoo.com/apply"**； **浏览器类型**选择**Chrome**
@@ -34,7 +34,7 @@
 9. 搜索**点击**组件并拖拽至**打开浏览器**组件内
 10. 点击**指定元素**，将鼠标放到**立即注册**高亮显示时，点击
 
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/web/Register.png)
+![img](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/web/Register.png)
 
 ## 关闭标签页
 为讲授**关闭标签页**的使用方法，特选定了在点击按钮后会生成新标签页的网站。关闭标签页有两种使用方法：①指定特定的标签页关闭 ②不指定特定标签页，关闭当前焦点标签页。大家可以点击[这里](https://academy.bottime.com/wiki/Activities/AppAutomation/Browser/CloseTab.md) 查看具体文档描述
@@ -43,7 +43,7 @@
 
 11. 搜索**关闭标签页**组件并拖拽至**打开浏览器**组件内。点击**指定元素**，将鼠标放到要关闭的标签页并高亮显示时，点击
 
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/web/highlight.png)
+![img](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/web/highlight.png)
 
 
 ## 等待元素消失
@@ -51,12 +51,12 @@
 
 12. 搜索**等待元素消失**组件并拖拽至**打开浏览器**组件内。点击**指定元素**，将鼠标放到下图位置并高亮显示时，点击
 
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/web/waitVanish.png)
+![img](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/web/waitVanish.png)
 
 
 13. 点击设计面板下的 **变量**标签，并新建一个**Boolean**类型的变量，命名为**waitElementVanishResult**
 
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/web/var1.jpg)
+![img](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/web/var1.jpg)
 
 14. 点击**等待元素消失**组件，设置其输出**结果**属性值为**waitElementVanishResult** （若指定元素消失，则会返回 **True**; 否则返回 **False**)
 
@@ -71,7 +71,7 @@
 
 17. 点击**1.OpenBrowser**错误捕捉组件，将鼠标放置到下图标红处，出现下图效果时，点击并拖动将其和**流程决策**连接
 
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/web/line.png)
+![img](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/web/line.png)
 
 
 ### 设置决策条件
@@ -79,7 +79,7 @@
 
 18. 点击**流程决策**，输入**条件**属性值为**waitElementVanishResult**
 
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/web/decision.png)
+![img](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/web/decision.png)
 
 ### 流程决策为False时
 此步骤将在流程决策的条件为False时执行。下述步骤在本模块的流程决策为False时，均执行，不再重复讲解
@@ -88,7 +88,7 @@
 
 20. 将**流程决策**的右侧**False**分支和**结束流程_写入日志**连接
 
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/web/decision1.png)
+![img](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/web/decision1.png)
 
 ## 运行
 21. 点击**运行**按钮，结束后查看运行日志即可

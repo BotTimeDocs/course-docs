@@ -14,7 +14,7 @@
 
 ## **操作流程**
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/SendEmailWithDatatable/202122SendEmailWithDatatable1.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/SendEmailWithDatatable/202122SendEmailWithDatatable1.png)
 
 ## **操作步骤**
 
@@ -42,28 +42,28 @@
       </html>
       ```
 
-    ![代码内容](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/SendEmailWithDatatable/202122SendEmailWithDatatable2.png)  
+    ![代码内容](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/SendEmailWithDatatable/202122SendEmailWithDatatable2.png)  
 
 2. 创建并打开项目：
 
-    ![](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/SendEmailWithDatatable/202122SendEmailWithDatatable3.png)
+    ![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/SendEmailWithDatatable/202122SendEmailWithDatatable3.png)
 
 3. 打开 Excel，并获取需要发送的表格内容
 
-    ![](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/SendEmailWithDatatable/202122SendEmailWithDatatable4.png)
+    ![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/SendEmailWithDatatable/202122SendEmailWithDatatable4.png)
 
-    ![](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/SendEmailWithDatatable/202122SendEmailWithDatatable5.png)
+    ![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/SendEmailWithDatatable/202122SendEmailWithDatatable5.png)
 
 4. 新建 2 个变量来分别接受文本内容和表格内容的数据
 
-    ![](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/SendEmailWithDatatable/202122SendEmailWithDatatable6.png)
+    ![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/SendEmailWithDatatable/202122SendEmailWithDatatable6.png)
 
 5. 拖入 "读取文件" 组件，来读取临时 Html 的文件内容
 
-    ![](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/SendEmailWithDatatable/202122SendEmailWithDatatable7.png)
+    ![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/SendEmailWithDatatable/202122SendEmailWithDatatable7.png)
 
 6. 拖入 "C#代码" 组件来处理需要写入的表格内容
-    ![](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/SendEmailWithDatatable/202122SendEmailWithDatatable8.png)
+    ![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/SendEmailWithDatatable/202122SendEmailWithDatatable8.png)
 
     那么同理，我们来执行 C#处理表格数据 datatable 时，就可以通过如下代码来实现：
 
@@ -104,14 +104,14 @@
     //在这里编写您的函数或者类
     ```
 
-   ![](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/SendEmailWithDatatable/202122SendEmailWithDatatable9.png)
+   ![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/SendEmailWithDatatable/202122SendEmailWithDatatable9.png)
 
 7. 拖入 "发送邮件" 组件，并配置邮件信息
 
-    ![](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/SendEmailWithDatatable/202122SendEmailWithDatatable10.png)
+    ![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/SendEmailWithDatatable/202122SendEmailWithDatatable10.png)
 
 8. 运行观察结果
 
-    ![](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/SendEmailWithDatatable/202122SendEmailWithDatatable11.png)
+    ![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/SendEmailWithDatatable/202122SendEmailWithDatatable11.png)
 
  好了各位，今天的课程就到此为止，有任何问题或者其他开发思路可留言告诉我们，下节课再见~

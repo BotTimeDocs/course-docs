@@ -51,15 +51,15 @@ tasklist /nh|find /i "Encoo.Executor.exe"
 
 1. 打开 Windows 任务计划程序。
 2. 创建任务。
-    ![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/timing/%E5%88%9B%E5%BB%BA%E4%BB%BB%E5%8A%A1)
+    ![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/timing/%E5%88%9B%E5%BB%BA%E4%BB%BB%E5%8A%A1)
 3. 设定名称，使用最高权限。
-    ![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/timing/%E8%AE%BE%E5%AE%9A%E5%90%8D%E7%A7%B0)
+    ![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/timing/%E8%AE%BE%E5%AE%9A%E5%90%8D%E7%A7%B0)
 4. 设定触发时间。
-    ![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/timing/%E8%AE%BE%E5%AE%9A%E8%A7%A6%E5%8F%91%E6%97%B6%E9%97%B4)
+    ![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/timing/%E8%AE%BE%E5%AE%9A%E8%A7%A6%E5%8F%91%E6%97%B6%E9%97%B4)
 5. 指定执行的 .bat 文件。
-    ![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/timing/%E6%8C%87%E5%AE%9Abat%E6%96%87%E4%BB%B6)
+    ![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/timing/%E6%8C%87%E5%AE%9Abat%E6%96%87%E4%BB%B6)
 
 创建完成后，在*任务计划程序库*中可查看到刚设定的任务，选中任务右边可点击直接运行，也可等到设定的时间触发运行。
-    ![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/timing/%E4%BB%BB%E5%8A%A1%E5%88%97%E8%A1%A8)
+    ![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/timing/%E4%BB%BB%E5%8A%A1%E5%88%97%E8%A1%A8)
 
 Note：任务触发前，请确保机器人处于可执行状态。

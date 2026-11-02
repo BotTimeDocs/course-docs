@@ -25,7 +25,7 @@
 
 2. 在配置窗口内选择你想要的流程部署，点击**创建**，流程组件即可添加至当前页面。
 
-![devmode](https://docimages.blob.core.chinacloudapi.cn/images/Kris/academy/secoundworkflow/addworkflow.png)
+![devmode](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Kris/academy/secoundworkflow/addworkflow.png)
 
 
 初始化流程组件时，系统将根据参数列表及参数类型，在模拟界面加载出参数对应的默认组件。 以下为参数类型及其对应的默认组件类型：
@@ -47,13 +47,13 @@
 - **控件删除**：当你想要删除界面上的组件时，你可以单击选中想要删除的组件，单击 Delete 键删除组件。
 - **控件是否显示**：选中整个流程组件，在右侧列表调整参数是否需要显示在ViCode页面上。 当你取消勾选参数时，参数不会出现在页面上。 当你勾选参数时，参数会出现在页面上。
 
-![devmode](https://docimages.blob.core.chinacloudapi.cn/images/Kris/academy/secoundworkflow/workflow2.png) 
+![devmode](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Kris/academy/secoundworkflow/workflow2.png) 
 
 ## 设置参数组件
 
 1. 单击模拟界面的组件，选中单个组件后，即可在右侧编辑组件信息。
 
-![devmode](https://docimages.blob.core.chinacloudapi.cn/images/Kris/academy/secoundworkflow/workflow3.png)
+![devmode](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Kris/academy/secoundworkflow/workflow3.png)
 
 当前支持对组件的设置如下：
 
@@ -64,7 +64,7 @@
 - 参数类型：展示流程中当前参数的数据类型。
 - 组件类型：允许用户调整交互组件类型，不同参数对应的组件选择列表，如下图所示。
 
-![devmode](https://docimages.blob.core.chinacloudapi.cn/images/Kris/Apps/setcomponent1.png)
+![devmode](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Kris/Apps/setcomponent1.png)
 
 2. 你对组件的所有内容的编辑，都可即时在模拟界面上查看。
 
@@ -80,6 +80,6 @@
    > 目前我们只支持流水响应式页面布局，未来我们将开放更多元的布局方式供用户定义界面。
 
 
-   ![全局配置](https://docimages.blob.core.chinacloudapi.cn/images/Kris/academy/secoundworkflow/workflow4.png)
+   ![全局配置](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Kris/academy/secoundworkflow/workflow4.png)
 
 完成以上步骤后，点击右上角保存，第一个ViCode就完成啦。

@@ -13,32 +13,32 @@
 
 ## **流程设计图示：**
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/MultiCheckbox/multipleCheckbox-1.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/MultiCheckbox/multipleCheckbox-1.png)
 
 ## **结果预期：**
-![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/MultiCheckbox/multipleCheckbox-2.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/MultiCheckbox/multipleCheckbox-2.png)
 
 ## **流程操作步骤：**
 1. 创建项目，命名为“勾选复选框”：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/MultiCheckbox/multipleCheckbox-3.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/MultiCheckbox/multipleCheckbox-3.png)
 
 2. 拖入**打开浏览器**组件，并配置需要选择复选框的网页：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/MultiCheckbox/multipleCheckbox-4.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/MultiCheckbox/multipleCheckbox-4.png)
 
 3. 拖入**赋值**组件，来接收自定义参数的列表内容：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/MultiCheckbox/multipleCheckbox-5.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/MultiCheckbox/multipleCheckbox-5.png)
 
 4. 拖入**循环操作（For Each）** 组件，来遍历每一个需要勾选的参数值：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/MultiCheckbox/multipleCheckbox-6.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/MultiCheckbox/multipleCheckbox-6.png)
 
 5. 观察网页中每个复选框的xpath路径：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/MultiCheckbox/multipleCheckbox-7.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/MultiCheckbox/multipleCheckbox-7.png)
 
 6. 拖入**赋值**组件，来接收每次拼接的xpath内容：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/MultiCheckbox/multipleCheckbox-8.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/MultiCheckbox/multipleCheckbox-8.png)
 
 7. 拖入**勾选**组件，并设定元素xpath，xpath为上步操作的拼接值，其中包含变量：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/MultiCheckbox/multipleCheckbox-9.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/MultiCheckbox/multipleCheckbox-9.png)
 
 至此勾选多个用户指定复选框的流程已开发完成，保存并运行查看结果：
-<video src="https://docimages.blob.core.chinacloudapi.cn/images/Practice/MultiCheckbox/checkbox.mp4" controls="controls" width="700px" />
+<video src="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/MultiCheckbox/checkbox.mp4" controls="controls" width="700px" />

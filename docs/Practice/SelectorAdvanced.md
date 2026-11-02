@@ -23,4 +23,4 @@
 
 参看视频中演示的流程开发过程：
 
-<video src="https://docimages.blob.core.chinacloudapi.cn/images/Practice/ClickAdvanced/index.mp4" controls="controls" width="700px" />
+<video src="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/ClickAdvanced/index.mp4" controls="controls" width="700px" />

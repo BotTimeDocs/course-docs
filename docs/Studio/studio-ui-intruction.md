@@ -4,7 +4,7 @@
 
 ## 开始主页
 
-![开始主界面](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/start20201019.png)
+![开始主界面](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/userInterface/start20201019.png)
 
 - **新建**：新建流程/组件项目的入口。
 - **打开**：打开已新建的项目。
@@ -14,7 +14,7 @@
 
 ## 编辑器主页
 
-![编辑器主界面](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/userinterface20201019.png)
+![编辑器主界面](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/userInterface/userinterface20201019.png)
 
 1. **菜单栏** — 一种树形结构，为编辑器提供一些功能入口。
 2. **工具栏** — 位于编辑器的最左侧，使你可以开展广泛的活动，包括新建、运行你的自动化项目和启动相关工具。

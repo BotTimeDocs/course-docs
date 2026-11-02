@@ -16,7 +16,7 @@
 5. 在“打开程序”组件的属性面板中，输入以下内容：
     - **程序路径**："C:\Windows\System32\notepad.exe"</br>要打开的程序的路径
 
-    ![打开程序](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/DesktopAutomation/openApp.PNG)
+    ![打开程序](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/DesktopAutomation/openApp.PNG)
 
     >注意：
     >WIindows系统下，记事本的默认路径为"C:\Windows\System32\notepad.exe"</br>
@@ -25,7 +25,7 @@
 6. 选中“打开程序”组件，在工具菜单栏下，点击“智能录制”，打开智能录制器
 7. 此时，智能录制器已启动
 
-    ![智能录制器](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/FirstProject/recorder.PNG)
+    ![智能录制器](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/FirstProject/recorder.PNG)
 
 ## 在记事本中写入内容并插入当前时间
 现在，已经打开了智能录制器，让我们开始进行录制。
@@ -42,22 +42,22 @@
     > 注意：
     > 当录制过程出现操作失误等情况导致流程错误，可以通过录制器的预览界面来管理录制好的流程操作。
 
-    ![暂停录制](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/FirstProject/stopRecording.PNG)
+    ![暂停录制](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/FirstProject/stopRecording.PNG)
 
 ## 获取记事本中写入的内容
 现在，我们已经在记事本中写入相关内容并插入当前时间，那么如何获取我们写入的内容？
 1. 点击智能录制器的“文本”->“获取文本”，该操作将会把目标元素的文本获取到，以让你可以进行后续处理
 
-    ![获取文本](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/FirstProject/getText.PNG)
+    ![获取文本](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/FirstProject/getText.PNG)
 
 2. 找到记事本，再次点击记事本的主窗口，此时便获取到记事本主窗口的文本
 3. 点击“保存&退出”，将录制的自动化流程保存在编辑区域中
 
-    ![保存并退出](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/FirstProject/saveExit.PNG)
+    ![保存并退出](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/FirstProject/saveExit.PNG)
 
 4. 录制好的流程会自动包含在序列中，如下所示：
 
-    ![录制好的流程](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/FirstProject/firstProject-record.PNG)
+    ![录制好的流程](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/FirstProject/firstProject-record.PNG)
 
 ## 打印记事本中写入的内容
 现在，记事本的相关录制操作已完成，我们需要将获取到的文本打印，那么如何打印呢？
@@ -65,11 +65,11 @@
 2. 从组件面板拖入一个“发送快捷键”组件到“输入文本”下方
 3. 在“发送快捷键”组件的Key中，选择“Enter”
 
-    ![发送快捷键](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/FirstProject/sendHotKey.PNG)
+    ![发送快捷键](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/FirstProject/sendHotKey.PNG)
 
 4. 现在开始打印内容。在编辑区域，点击“变量，打开变量列表，创建一个字符串型（String）变量-text，用于存储获取到的文本内容
 
-    ![创建变量Text](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/FirstProject/Variable-Text.PNG)
+    ![创建变量Text](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/FirstProject/Variable-Text.PNG)
 
 5. 在“获取文本”组件的属性面板中，输入以下内容：
     - **文本**：text</br>将获取到的文本输出，以进行后续处理
@@ -81,7 +81,7 @@
 
 最终，项目如下所示：
 
-![最终项目](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/FirstProject/FirstProject.PNG)
+![最终项目](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/FirstProject/FirstProject.PNG)
 
 ## 运行自动化项目
 在运行面板中，点击“运行”，将会自动回放我们录制的过程。

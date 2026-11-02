@@ -14,14 +14,14 @@
 
 准备工作：
 - 一个名称为StudentsBasicInfo的CSV文件(已包含在课程示例中, 下载即可得)，内容格式如下：
-     ![DataTable](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/Datatable/DT-1.png)
+     ![DataTable](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/Datatable/DT-1.png)
 
 ## 创建项目
 
 1. 在编辑器创建一个新的项目 DatatableAutomationDemo 
 2. 右键项目名称并点击“打开所在文件夹”菜单，打开项目目录，创建文件夹“Files”,并将准备好的CSV文件放入此文件夹
 3. 在【变量】面板分别创建3个数据类型为system.Data.Datatable且范围为MainFlow的变量：dtStudentsBasicInfo、dtStudentsAddress 和 dtStudentsFullInfo
-     ![DataTable](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/Datatable/DT-2.png)
+     ![DataTable](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/Datatable/DT-2.png)
 
 
 ## 配置组件属性
@@ -33,14 +33,14 @@
 
 2. 将【搭建数据表】组件拖拽进设计面板,用于搭建一个将于其他表合并的数据表，并与【读取CSV文件】组件建立连接。双击【搭建数据表】后再点击【点击打开“数据表搭建器”】，配置数据信息，如下两图所示：
 
-     ![DataTable](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/Datatable/DT-3.png)
+     ![DataTable](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/Datatable/DT-3.png)
 
-     ![DataTable](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/Datatable/DT-4.png)
+     ![DataTable](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/Datatable/DT-4.png)
 
 
 3. 将【联结数据表】组件拖拽进设计面板,用于将读取的CSV数据与刚搭建的数据表执行内连接操作，并与【搭建数据表】组件建立连接。在属性面板【数据表】字段中输入变量dtStudentsAddress，用于接收输出的数据结果。双击【联结数据表】后再点击【点击打开“连接配置”】，在【联结配置】窗口配置如下图所示信息：
 
-     ![DataTable](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/Datatable/DT-5.png)
+     ![DataTable](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/Datatable/DT-5.png)
 
  4. 将【预览数据表】组件拖拽进设计面板,用于在运行时预览确认两个数据集联结后的结果。
 
@@ -68,18 +68,18 @@
 
 8. 流程创建完成，如下图所示：
 
-     ![DataTable](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/Datatable/DT-9.png)
+     ![DataTable](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/Datatable/DT-9.png)
 
 ## 执行项目查看结果
 1. 点击【运行】
 2. 出现【预览数据表】，已成功将两个数据表合并，但还未移除列S_ID和S_UserName前的数据表，如下图：
 
-     ![DataTable](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/Datatable/DT-6.png)
+     ![DataTable](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/Datatable/DT-6.png)
 
 3. 点击【确认】，项目执行完毕
 4. 右键项目名称并点击“打开所在文件夹”菜单，进入文件夹“Files”，你将会看到一个StudentsFullInfo.csv文件，双击打开，数据结果如下图，已成功移除列S_ID和S_UserName：
 
-     ![DataTable](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/Datatable/DT-7.png)
+     ![DataTable](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/Datatable/DT-7.png)
 
 
 ## 如何在编辑器中下载并使用本课程示例

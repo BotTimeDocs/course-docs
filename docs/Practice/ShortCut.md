@@ -19,4 +19,4 @@ RPA 项目实施时会遇到各种系统，总有一些系统上的元素彻底�
 
 具体步骤请参考以下视频：
 
-<video src="https://docimages.blob.core.chinacloudapi.cn/images/Practice/ShortCut/%E5%89%AA%E8%B4%B4%E6%9D%BF%E8%8E%B7%E5%8F%96%E6%96%87%E6%9C%AC.mp4" controls="controls" width="700px" />
+<video src="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/ShortCut/%E5%89%AA%E8%B4%B4%E6%9D%BF%E8%8E%B7%E5%8F%96%E6%96%87%E6%9C%AC.mp4" controls="controls" width="700px" />

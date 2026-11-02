@@ -16,7 +16,7 @@
 准备工作：
 - 一个名称为StudentsInfo的CSV文件(已包含在课程示例中, 下载即可得)，内容格式如下：
 
-     ![DataTable](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/Datatable/DT-20.png)
+     ![DataTable](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/Datatable/DT-20.png)
 
 
 ## 创建项目
@@ -25,7 +25,7 @@
 2. 右键项目名称并点击“打开所在文件夹”菜单，打开项目目录，创建文件夹“Files”,并将准备好的CSV文件放入此文件夹
 3. 在【变量】面板分别创建2个数据类型为system.Data.Datatable且范围为MainFlow的变量：dtStudentsInfo 和 dtStudentsByFilter, 分别用于接下来存储获取CSV和操作后的结果，下方课程有详细介绍
 
-     ![DataTable](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/Datatable/DT-21.png)
+     ![DataTable](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/Datatable/DT-21.png)
 
 
 
@@ -41,7 +41,7 @@
 
     > **列名：** 输入想要添加的列
 
-     ![DataTable](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/Datatable/DT-22.png)
+     ![DataTable](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/Datatable/DT-22.png)
 
 
 3. 将【添加数据行】组件拖拽进设计面板，用于在数据表中添加新行，并与【添加数据列】组件建立连接。属性配置如下：
@@ -63,7 +63,7 @@
 
 6. 将【筛选】组件拖拽进设计面板,用于过滤数据表数据，并与【排序】组件建立连接。双击进入后点击【点击打开"筛选向导"】后在【筛选器向导】窗口配置如下图所示信息：
 
-     ![DataTable](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/Datatable/DT-23.png)
+     ![DataTable](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/Datatable/DT-23.png)
 
 7. 将【保存为CSV文件】组件拖拽进设计面板中，并与组件【筛选】建立连接，用于将筛选后的数据表保存至CSV文件中。配置属性如下：
 
@@ -73,13 +73,13 @@
 
 8. 流程创建完成，如下图所示：
 
-     ![DataTable](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/Datatable/DT-24.png)
+     ![DataTable](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/Datatable/DT-24.png)
 
 ## 执行项目查看结果
 1. 点击【运行】，在【日志】面板可以查看整个运行过程记录
 2. 右键项目名称并点击“打开所在文件夹”菜单，进入文件夹“Files”，你将会看到一个StudentsByFilter.csv文件，双击打开，数据结果如下图，已成功删除列"ID"和过滤"City"是"Beijing"的数据，如下图：
 
-     ![DataTable](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/Datatable/DT-25.png)
+     ![DataTable](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/Datatable/DT-25.png)
 
 ## 如何在编辑器中下载并使用本课程示例
 1. 打开编辑器，在工具栏点击【流程市场】

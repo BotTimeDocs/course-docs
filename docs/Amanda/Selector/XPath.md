@@ -4,7 +4,7 @@
 
 例如下图标红处在定位此节点层级时将不发生效力
 
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/Selector/xpath.png)
+![img](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/Selector/xpath.png)
 
 ## 准备工作
 
@@ -19,11 +19,11 @@
 1. 搜索**获取元素**组件并拖拽至设计面板
 2. 点击**指定元素**，将鼠标放到导航栏**云扩RPA**处，看到下图高亮效果后点击
 
-    ![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/Selector/EncooRPA.png)
+    ![img](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/Selector/EncooRPA.png)
 
 3.  点击设计面板下的 **变量**标签，并新建一个**IUiObject**类型的变量，命名为**outElement**；新建一个**Boolean**类型的变量，命名为**result**
 
-    ![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/Selector/xpathVar.png)
+    ![img](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/Selector/xpathVar.png)
 
 4. 点击**获取元素**组件，设置其输出**结果**属性值为**outElement** 
 
@@ -49,32 +49,32 @@
 
 1. 点击工具栏的**运行**按钮，结束后查看运行日志，应含有下图两行日志信息
 
-    ![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/Selector/RunningResult.png)
+    ![img](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/Selector/RunningResult.png)
 
 ## 获取XPath属性值
 
 1. 回到 https://www.encoo.com/ 网站，按住**F12**打开如下图面板后，点击标红处
 
-    ![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/Selector/F12.png)
+    ![img](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/Selector/F12.png)
 
 2.  将鼠标放置到导航栏的**新闻中心**处，看到下图效果后，点击
 
-    ![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/Selector/News.png)
+    ![img](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/Selector/News.png)
 
 3.  对应的代码段被定位到。右键单击对应的代码段->复制->复制XPath
 
-    ![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/Selector/copyXPath.png)
+    ![img](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/Selector/copyXPath.png)
 
 ## 新增XPath属性值
 
 1. 点击**获取元素**组件，点击属性栏**选择器**属性旁的按钮，打开选择器编辑器
 2. 点击最后一个节点层级，查看右侧的属性区域，并在空白处右键单击->新增
 
-    ![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/Selector/addXPath.png)
+    ![img](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/Selector/addXPath.png)
 
 3.  点击下拉菜单，选择**XPath**属性。点击右侧的属性值文本框，**Ctrl+V**粘贴XPath
 
-    ![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/Selector/AddedXPath.png)
+    ![img](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/Selector/AddedXPath.png)
 
 4.  点击确认
 
@@ -86,6 +86,6 @@
 
 1. 点击**运行**按钮，结束后查看运行日志，应含有下图两行日志信息
 
-    ![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/Selector/result2.png)
+    ![img](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/Selector/result2.png)
 
 <table><td bgcolor=	#F0F8FF>流程完成后不要忘了保存哟，下节课程的练习将依附本课流程</td></table>

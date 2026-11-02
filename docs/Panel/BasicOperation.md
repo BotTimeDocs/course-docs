@@ -20,7 +20,7 @@
 
 3. **ViCode开发**：单击“ViCode开发”菜单，你可以看到当前资源组下所有正在开发的ViCode。
 
-![apps1](https://docimages.blob.core.chinacloudapi.cn/images/Kris/academy/apps1/dev.png)
+![apps1](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Kris/academy/apps1/dev.png)
 
   - **创建ViCode**：单击页面右上角“+创建ViCode”按钮，即可创建一个ViCode。
 
@@ -40,7 +40,7 @@
 
 选择创建或编辑ViCode，即可进入ViCode编辑器，ViCode编辑器界面如下图所示。
 
-![apps](https://docimages.blob.core.chinacloudapi.cn/images/Kris/academy/apps1/edit.jpg)
+![apps](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Kris/academy/apps1/edit.jpg)
 
 1. **菜单**：编辑器的菜单分为如下三部分：
 - 页面配置：用于管理ViCode页面及组件。

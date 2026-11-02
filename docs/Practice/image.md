@@ -14,9 +14,9 @@
 - 使用的图片不能为动态图，如网页上不断刷新的图片。
 - 指定元素的对象会随着光标的移动颜色发生变化时，需要使用光标未影响其呈现时时的截图。
     如企查查首页：鼠标移动到标题时,标题底色会变为白色，如下图：
-    ![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/image/qcc.png)
+    ![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/image/qcc.png)
     在这种情况下，用图像识别指定元素时，我们不能截取光标悬浮在图标上时的截图。
     Note：企查查本身而言，我们完全不需要用图像识别来指定元素。
 
 ## 操作步骤
-<video src="https://docimages.blob.core.chinacloudapi.cn/images/Practice/image/%E5%9B%BE%E7%89%87%E8%AF%86%E5%88%AB.mp4" controls="controls" width="700px" />
+<video src="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/image/%E5%9B%BE%E7%89%87%E8%AF%86%E5%88%AB.mp4" controls="controls" width="700px" />

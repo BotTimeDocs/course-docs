@@ -298,11 +298,11 @@ Newtonsoft.Json
 Newtonsoft.Json.Linq
 ```
 
-![导入命名空间](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/JSON/importnamespace20201201.png)
+![导入命名空间](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/JSON/importnamespace20201201.png)
 
 2. 创建项目并拖入**C#代码**组件
 
-![C#组件](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/JSON/Csharp20201201.png)
+![C#组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/JSON/Csharp20201201.png)
 
 
 

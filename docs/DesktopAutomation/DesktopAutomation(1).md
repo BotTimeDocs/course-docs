@@ -17,7 +17,7 @@
 4. 在“打开程序”组件的属性面板中，输入以下内容：
     - **程序路径**："C:\Windows\System32\notepad.exe"</br>要打开的程序的路径
 
-    ![打开程序](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/DesktopAutomation/openApp.PNG)
+    ![打开程序](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/DesktopAutomation/openApp.PNG)
 
 5. 从组件面板拖入一个“点击”组件到“打开程序”组件内部
 6. 点击“指定元素”，然后找到记事本，点击“文件”，获取到该目标元素
@@ -28,7 +28,7 @@
 7. 再从组件面板拖入一个“点击”组件到上一个“点击”组件下方
 8. 点击“指定元素”，找到记事本，按下F2，展开文件菜单，等待5秒后，点击“页面设置”，获取到该目标元素，打开页面设置窗口
 
-    ![页面设置](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/DesktopAutomation/PageSetting.PNG)
+    ![页面设置](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/DesktopAutomation/PageSetting.PNG)
 
     >注意：
     >F2快捷键用于延迟录制。
@@ -40,7 +40,7 @@
 2. 从组件面板拖入一个“选择项目”组件到“点击”组件下方
 3. 点击“指定元素”，按下F2，然后在“来源(S)：”后的下拉框中选择一个选项，获取到该目标元素，设置来源（本示例选择手动送纸）
 
-    ![选择来源](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/DesktopAutomation/Source.PNG)
+    ![选择来源](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/DesktopAutomation/Source.PNG)
 
 4. 从组件面板拖入一个“勾选”组件到“选择项目”组件下方
 5. 点击“指定元素”，然后点击“方向”下的“横向”，获取到该目标元素，设置页面的方向
@@ -53,7 +53,7 @@
 
 最终，项目如下所示：
 
-![最终项目](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/DesktopAutomation/DesktopAutomation1.jpg)
+![最终项目](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/DesktopAutomation/DesktopAutomation1.jpg)
 
 ## 运行自动化项目
 在运行面板中，点击“运行”，我们可以看到编辑器自动打开记事本的页面设置窗口，来设置记事本页面。

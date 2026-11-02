@@ -45,45 +45,45 @@
 
 - **首页（HomePage）**：主要用于对控制台中的各类常用应用、服务以及实用链接进行快速导航，同时提供编辑器、机器人安装包的下载功能。 
 
-![Consoleintroduction](https://docimages.blob.core.chinacloudapi.cn/images/Console/Consoleintroduction1.png)
+![Consoleintroduction](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/Consoleintroduction1.png)
 
 - **仪表盘**：提供各类数统计分析功能，展现企业机器人、流程任务运行及状况，便于快速了解企业RPA系统运行现状。
 
-![Consoleintroduction](https://docimages.blob.core.chinacloudapi.cn/images/Console/Consoleintroduction2.png)
+![Consoleintroduction](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/Consoleintroduction2.png)
 
 - **流程包管理**：主要用于管理编辑器上传或手动上传的流程包及其对应版本详情，支持流程包下载、删除等操作。 
 
-![Consoleintroduction](https://docimages.blob.core.chinacloudapi.cn/images/Console/Consoleintroduction3.png)
+![Consoleintroduction](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/Consoleintroduction3.png)
 
 - **流程部署**：主要用于对流程执行的目标、参数、重试、视频录制等进行配置，支持通过手动、任务计划等方式触发流程。
 
-![Consoleintroduction](https://docimages.blob.core.chinacloudapi.cn/images/Console/Consoleintroduction6.png)
+![Consoleintroduction](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/Consoleintroduction6.png)
 - **机器人管理**：主要用于创建并管理各类机器人的连接，同时可对机器人的许可状态进行管理。 
 
-![Consoleintroduction](https://docimages.blob.core.chinacloudapi.cn/images/Console/Consoleintroduction4.png)
+![Consoleintroduction](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/Consoleintroduction4.png)
 
 - **调度队列**：调主要用于绑定机器人集群，同时将触发到队列中的任务动态分配给空闲机器人进行运行。
 
-![Consoleintroduction](https://docimages.blob.core.chinacloudapi.cn/images/Console/Consoleintroduction5.png)
+![Consoleintroduction](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/Consoleintroduction5.png)
 
 - **任务记录**: 主要用于展示当前资源组下所有流程任务的执行状态，支持查看流程执行详情及日志详情。
 
-![Consoleintroduction](https://docimages.blob.core.chinacloudapi.cn/images/Console/Consoleintroduction7.png)
+![Consoleintroduction](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/Consoleintroduction7.png)
 
 
 - **ViCode管理**：主要用于管理云扩ViCode中编辑并上传到控制台的ViCode，包括查看ViCode、管理ViCode、删除ViCode等功能。
 
 
-![Consoleintroduction](https://docimages.blob.core.chinacloudapi.cn/images/Console/consoleapps.png)
+![Consoleintroduction](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/consoleapps.png)
 
 
 - **数据中心**：主要用于向 RPA 流程任务提供各类资产管理服务、文件服务、数据管理服务。
 
-![Consoleintroduction](https://docimages.blob.core.chinacloudapi.cn/images/Console/Consoleintroduction9.png)
+![Consoleintroduction](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/Consoleintroduction9.png)
 
 - **全局管理**：全局管理主要对用户权限、角色权限、资源组等、许可证、审计日志等进行管理。
 
-![Consoleintroduction](https://docimages.blob.core.chinacloudapi.cn/images/Console/Consoleintroduction8.png)
+![Consoleintroduction](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/Consoleintroduction8.png)
 
 
 

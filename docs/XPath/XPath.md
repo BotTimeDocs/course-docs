@@ -26,13 +26,13 @@ Google Chrome 浏览器自带了叫做 "[Chrome DevTools](https://developers.goo
 
 3. 按照下图步骤，找到`百度一下`按钮的XPath并复制。它的值为：//*[@id="su"]
 
-   ![image-20201123095855154](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/XPath/xpath1.png)
+   ![image-20201123095855154](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/XPath/xpath1.png)
 
 4. 在当前面板按下`Ctrl`+`F`来启用搜索模式。
 
 5. 输入步骤三得到的XPath值：//*[@id="su"]。如果有任何元素被成功匹配，它们将会在 DOM 中以黄色高亮。
 
-![image-20201123100511663](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/XPath/xpath2.png)
+![image-20201123100511663](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/XPath/xpath2.png)
 
    
 

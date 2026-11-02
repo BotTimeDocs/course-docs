@@ -15,7 +15,7 @@
 4. 在该项目所在目录下，右击新建一个Excel文件，并输入文件名，例如“宏命令”
 5. 打开该文件，将其另存为“Excel 启用宏的工作簿”
 
-    ![转换文件](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/OfficeExcel/xlsxToXlsm.PNG)
+    ![转换文件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/OfficeExcel/xlsxToXlsm.PNG)
 
     >注意：
     >在开始处理宏之前，应启用“开发工具”。
@@ -25,14 +25,14 @@
 ## 在“宏命令.xlsm”文件中，输入内容，并编辑宏
 1. 按照以下格式，在文件中填入“感谢选择云扩RPA编辑器”
 
-    ![写入内容](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/OfficeExcel/execute1.PNG)
+    ![写入内容](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/OfficeExcel/execute1.PNG)
 
 2. 选择“开发工具”，双击打开“Visual Basic”，在Sheet1中写入以下内容，并保存
     Sub SetColumnsAutoFit()
         Range("A:A").Columns.AutoFit
     End Sub
 
-    ![编辑宏](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/OfficeExcel/openVisualBasic.PNG)
+    ![编辑宏](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/OfficeExcel/openVisualBasic.PNG)
 
 ## 打开“宏命令.xlsm”文件并执行宏
 
@@ -49,7 +49,7 @@
   
 最终，项目如下所示：
 
-![Excel执行宏示例](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/OfficeExcel/Excel-executeMacro.PNG)
+![Excel执行宏示例](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/OfficeExcel/Excel-executeMacro.PNG)
 
 ## 运行自动化项目
 
@@ -59,7 +59,7 @@
 >
 > 运行带有“执行宏”组件的项目，需在“打开/新建”组件的可选项属性中勾选“启用宏”属性。
 
-![Excel执行宏](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/OfficeExcel/execute2.PNG)
+![Excel执行宏](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/OfficeExcel/execute2.PNG)
 
 ## 如何在编辑器中使用示例
 

@@ -2,7 +2,7 @@
 
 在此介绍中，我们来熟悉一下Office Excel组件以及一些相关知识点。
 
-![OfficeExcel](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/OfficeExcel/OfficeExcel.png)
+![OfficeExcel](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/OfficeExcel/OfficeExcel.png)
 
 Office Excel组件大致分为以下几类：
 1. 打开关闭

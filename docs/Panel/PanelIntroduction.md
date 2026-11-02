@@ -30,13 +30,13 @@ ViCode面向业务人员，囊括业务人员所需要的 RPA 的基本功能，
 
 开发者可以在这个模块下，通过工作台的零代码开发功能创建应用，并对应用进行编辑、发布和管理。 
 
-![devmode](https://docimages.blob.core.chinacloudapi.cn/images/Kris/academy/dev.jpg) 
+![devmode](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Kris/academy/dev.jpg) 
 
 2. **ViCode管理** 
 
 ViCode一经发布，即，发布到云扩控制台，你可以在ViCode管理模块看到所有被发布的ViCode，并对其进行上下架及版本管理 。
 
-![devmode](https://docimages.blob.core.chinacloudapi.cn/images/Kris/academy/console.jpg)
+![devmode](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Kris/academy/console.jpg)
 
  
 
@@ -44,4 +44,4 @@ ViCode一经发布，即，发布到云扩控制台，你可以在ViCode管理�
 
 打开云扩ViCode，点击“我的应用”菜单。你可以在这里看到所有你已经被授权的应用。 
 
- ![devmode](https://docimages.blob.core.chinacloudapi.cn/images/Kris/academy/user.jpg)
+ ![devmode](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Kris/academy/user.jpg)

@@ -71,8 +71,8 @@
 
 > Chrome安装包下载地址：
 
-- [在线安装包](https://docimages.blob.core.chinacloudapi.cn/images/Studio/ChromeSetup.exe)
-- [离线安装包](https://docimages.blob.core.chinacloudapi.cn/images/Studio/ChromeStandaloneSetup64.exe)
+- [在线安装包](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/ChromeSetup.exe)
+- [离线安装包](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/ChromeStandaloneSetup64.exe)
 
 <br><br>
 
@@ -91,7 +91,7 @@
 
 在编辑器的 **工具 > 扩展** 下你可以看到你需要安装的 Chrome 扩展。
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/Studio/Market/extensioninpath20201019.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Market/extensioninpath20201019.png"/>
 
 
 <br><br>
@@ -106,7 +106,7 @@
 
 单击“Chrome 扩展”，在弹出的对话框中，单击“确定”。
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/chrome-installation.PNG"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Extensions/chrome-installation.PNG"/>
 
 <br><br><br>
 
@@ -114,7 +114,7 @@
 
 打开 Chrome 浏览器，点击侧面导航栏的“更多工具 > 扩展程序”。
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/chrome-openExtension.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Extensions/chrome-openExtension.png"/>
 
 <br><br><br>
 
@@ -127,7 +127,7 @@
 **第五步：**
 点击该扩展右下角的启用按钮。
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extensions/chrome-usingExtension.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Extensions/chrome-usingExtension.png"/>
 
 
 <br><br><br>
@@ -135,7 +135,7 @@
 **第六步：**
 如需在无痕模式下录制运行，则需在扩展中打开“在无痕模式下启用”，并重启浏览器。
 
-<img width = '400'  src ="https://docimages.blob.core.chinacloudapi.cn/images/DX/DevGuide/chromewhllq00001.png"/>
+<img width = '400'  src ="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/DX/DevGuide/chromewhllq00001.png"/>
 
 
 

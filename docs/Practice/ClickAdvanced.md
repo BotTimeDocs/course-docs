@@ -17,7 +17,7 @@
 - 点击方式：默认、模拟鼠标、设置控件
 - 辅助键：Alt、Ctrl、Shift、Win
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/ClickAdvanced/%E5%B1%9E%E6%80%A7)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/ClickAdvanced/%E5%B1%9E%E6%80%A7)
 
 ## 常见的项目场景
 
@@ -26,7 +26,7 @@
 ### 滑块验证
 
 在很多网页中，需要进行登录或转账等高验证等级操作时，时常会见到滑块验证的场景。
-![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/ClickAdvanced/%E6%BB%91%E5%9D%97.jpg)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/ClickAdvanced/%E6%BB%91%E5%9D%97.jpg)
 
 在流程中，你需要首先实现滑动认证，然后才能进行其他业务处理。
 
@@ -39,7 +39,7 @@
 
 通常在制作流程时，我们都会使用元素选择器验证元素是否被选中。
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/ClickAdvanced/%E9%80%89%E6%8B%A9%E5%99%A8%E9%AA%8C%E8%AF%81.jpg)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/ClickAdvanced/%E9%80%89%E6%8B%A9%E5%99%A8%E9%AA%8C%E8%AF%81.jpg)
 
 但因为各种系统的不同，我们还是会碰到开发时已验证通过，但流程运行时无法点中所选元素的情况。
 
@@ -48,4 +48,4 @@
 ### 选中多个项目
 你还可以使用*点击*组件，一次选中多个项目。使用 *Shift* 辅助键即可实现。
 
-<video src="https://docimages.blob.core.chinacloudapi.cn/images/Practice/ClickAdvanced/%E7%82%B9%E5%87%BB.mp4" controls="controls" width="700px" />
+<video src="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/ClickAdvanced/%E7%82%B9%E5%87%BB.mp4" controls="controls" width="700px" />

@@ -16,32 +16,32 @@
 3. 搜索**绑定浏览器**组件并拖拽放置于**序列**内
 4. 点击**指定浏览器**，将鼠标移动到准备工作中打开的网页上，看到下图高亮效果时点击
 
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/ExtractStructruedData/attach.png)
+![img](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/ExtractStructruedData/attach.png)
 
 ## 获取分隔列数据
 
 5. 搜索**获取结构化数据**组件并拖拽放置于**绑定浏览器**内
 6. 点击**指定数据源**，将鼠标放到表内第一个单元格上，高亮显示时点击
 
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/ExtractStructruedData/1.png)
+![img](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/ExtractStructruedData/1.png)
 
 7. 弹出下图窗口后，点击**否**
 
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/ExtractStructruedData/getWhole.png)
+![img](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/ExtractStructruedData/getWhole.png)
 
 8. 点击**下一步**，执行指定第二个元素的操作
 
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/ExtractStructruedData/2.png)
+![img](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/ExtractStructruedData/2.png)
 
 9. 将鼠标放到表内第一列的第四个单元格上，高亮显示时点击
 
 
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/ExtractStructruedData/3.png)
+![img](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/ExtractStructruedData/3.png)
 
 ## 两次指定元素匹配到规则后，配置列名
 10. 当两次指定的元素匹配到规律时，会显示对话框提示配置列名，此处填入**承运人**后点击**下一步**
 
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/ExtractStructruedData/4.png)
+![img](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/ExtractStructruedData/4.png)
 
 
 ## 继续提取数据
@@ -69,7 +69,7 @@
 
 20. 点击**运行**按钮，可看到获取的第一页数据在运行时被展示了出来
 
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/ExtractStructruedData/result.png)
+![img](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/ExtractStructruedData/result.png)
 
 ## 如何在编辑器中下载并使用本课程示例
 

@@ -14,7 +14,7 @@
 
     在流程市场中，你可以搜索任何你感兴趣的流程，并在编辑器中打开运行，查看效果。或进行更改，将其完善成为你自己想要的效果。
 
-    ![新建](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extra/TheUserInterface/newProject.png)
+    ![新建](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Extra/TheUserInterface/newProject.png)
 
 2. **打开项目**
 
@@ -24,7 +24,7 @@
     >
     > 针对控制台流程，需要使用控制台账号登录编辑器才可以看到。
 
-    ![打开](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extra/TheUserInterface/openProject.png)
+    ![打开](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Extra/TheUserInterface/openProject.png)
 
 3. **辅助工具**
 
@@ -32,13 +32,13 @@
 
     比如，安装 Chrome 扩展后，你可以对 Chrome 浏览器进行各种自动化操作：鼠标点击、获取数据等等。
 
-    ![辅助工具](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extra/TheUserInterface/tools.png)
+    ![辅助工具](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Extra/TheUserInterface/tools.png)
 
 4. **全局设置**
 
     在设置页面，可以帮助你完成一些编辑器的全局设置，一键修改，应用所有。
 
-    ![全局设置](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extra/TheUserInterface/settings.png)
+    ![全局设置](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Extra/TheUserInterface/settings.png)
 
 5. **提供帮助**
 
@@ -46,7 +46,7 @@
 
     除此之外，你还能够了解到产品的相关信息，比如版本号信息，你还可以通过此页面更改激活方式。
 
-    ![帮助](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extra/TheUserInterface/help.png)
+    ![帮助](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Extra/TheUserInterface/help.png)
 
 ## 编辑主页
 
@@ -58,13 +58,13 @@
 
     在开始页面中，新建一个流程项目，创建完成，将会进入编辑主页。
 
-    ![新建项目](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extra/TheUserInterface/newFlowProject.png)
+    ![新建项目](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Extra/TheUserInterface/newFlowProject.png)
 
 2. **编辑主页布局**
 
    进入编辑主页，可以看到编辑主页主要分为以下几个部分：
 
-   ![编辑主页](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extra/TheUserInterface/editorPage.png)
+   ![编辑主页](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Extra/TheUserInterface/editorPage.png)
 
    | 区域            | 说明                                                         |
    | --------------- | ------------------------------------------------------------ |
@@ -82,11 +82,11 @@
 
      - 方式一：鼠标按住要添加的组件，拖动组件到编辑区域，即可将组件添加到编辑区域；然后拖动 Start 节点连接到拖入的组件。
 
-        ![添加组件](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extra/TheUserInterface/addActivity1.gif)
+        ![添加组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Extra/TheUserInterface/addActivity1.gif)
 
      - 方式二：鼠标按住要添加的组件，拖动组件到 Start 节点上 。  
 
-        ![添加组件](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extra/TheUserInterface/addActivity2.gif)
+        ![添加组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Extra/TheUserInterface/addActivity2.gif)
 
 4. **选择组件**
 
@@ -96,17 +96,17 @@
 
         此外，选择组件并右击组件，我们还可以对这个组件进行各种设置，比如：复制粘贴、启用/禁用组件等操作。
 
-        ![单选组件](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extra/TheUserInterface/chooseActivity.png)
+        ![单选组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Extra/TheUserInterface/chooseActivity.png)
 
     - 批量选择组件
 
       - 方式一：选择一个组件，然后按住 Ctrl 键，并使用鼠标左键，可以自由选择多个组件。    
 
-        ![批量选择组件](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extra/TheUserInterface/chooseActivity1.gif)
+        ![批量选择组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Extra/TheUserInterface/chooseActivity1.gif)
 
       - 方式二：按住鼠标左键进行框选，即可完成批量选择 。     
 
-        ![批量选择组件](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extra/TheUserInterface/chooseActivity2.gif)
+        ![批量选择组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Extra/TheUserInterface/chooseActivity2.gif)
 
 5. **修改属性**
 
@@ -118,28 +118,28 @@
     >
     > 填写属性值时，如果属性值是字符串，需要以英文双引号括起来 。
 
-    ![修改属性](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extra/TheUserInterface/openBrowser.gif)
+    ![修改属性](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Extra/TheUserInterface/openBrowser.gif)
 
 6. **变量管理**
 
     大多数情况下，部分组件执行后，会产生一个执行结果，而这个执行结果往往需要进一步处理，此时则需要介质来暂存获取到的数据，这个介质就是**变量**。只要是需要返回数据的组件，输出类属性就是将数据存储到变量里，然后进行任意操作。
 
-    ![执行结果](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extra/TheUserInterface/result.png)
+    ![执行结果](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Extra/TheUserInterface/result.png)
 
     所有的变量都需要定义后才能使用，在变量列表处，可以手动创建一个变量。针对需要删除和修改的变量，直接在变量列表处进行操作即可。
 
-    ![变量管理](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extra/TheUserInterface/mangeVariables.png)
+    ![变量管理](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Extra/TheUserInterface/mangeVariables.png)
 
 7. **其他常用操作**
 
    - 项目执行
 
       通过运行面板可以运行/调试项目，使用停止按钮则可以快速停止流程执行。    
-       ![执行](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extra/TheUserInterface/Run.png)
+       ![执行](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Extra/TheUserInterface/Run.png)
 
    - 项目发布
 
      编辑成功的项目可以一键发布到控制台、本地机器人或市场中。    
-       ![发布](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extra/TheUserInterface/publish.png)
+       ![发布](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Extra/TheUserInterface/publish.png)
 
 通过上述介绍，我们已经初步了解编辑器的界面组成及简单操作，接下来，你可以初步尝试一下如何编辑一个简单的项目了。

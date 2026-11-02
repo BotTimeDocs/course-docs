@@ -4,7 +4,7 @@
 
 **下载地址入口**：登录 [云扩科技](https://www.encoo.com/) 官网，根据页面右上角的链接引导获取下载地址。
 
-![编辑器/机器人的下载入口](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/official-website20211029.png)
+![编辑器/机器人的下载入口](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/official-website20211029.png)
 
 | | 社区版 | 企业版|
 ---------|----------|---------
@@ -14,7 +14,7 @@
 
 双击已下载的社区版/企业版安装包，根据向导提示安装。
 
-![编辑器/机器人的安装](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/install20211029.png)
+![编辑器/机器人的安装](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/install20211029.png)
 
 ## 登录与激活
 
@@ -26,8 +26,8 @@
 
 ### 编辑器的登录与激活
 
-![编辑器的登录与激活](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/studio20211029.png)
+![编辑器的登录与激活](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/studio20211029.png)
 
 ### 机器人的登录与激活
 
-![机器人的登录与激活](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/robot20211029.png)
+![机器人的登录与激活](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/robot20211029.png)

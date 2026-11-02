@@ -16,7 +16,7 @@ RPA的核心在于编辑器的流程编写，你可以把它想象成一个可�
 打开编辑器，请使用控制台注册的账户登录。
 
 登陆后进入编辑器，在项目面板中，点击“新建项目”。
-![workflow](https://docimages.blob.core.chinacloudapi.cn/images/Kris/firstworkflow/createproject.gif)
+![workflow](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Kris/firstworkflow/createproject.gif)
 
 创建完新项目之后，我们即可进行流程的编写。
 
@@ -28,11 +28,11 @@ RPA的核心在于编辑器的流程编写，你可以把它想象成一个可�
 4. 选中**组件**，在**属性面板**中指定浏览器并填入云扩的官网地址 ——`www.encoo.com`，你也可以将地址换成任意你想要访问的网站。
 5. 这样简单几步，我们的流程就完成啦~
 
-![workflow](https://docimages.blob.core.chinacloudapi.cn/images/Kris/firstworkflow/addacitivity.gif)
+![workflow](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Kris/firstworkflow/addacitivity.gif)
 
 ## 运行流程
 流程编写完成后，我们可以通过点击“**运行**”或快捷键（Ctrl+F5）运行流程。
-![workflow](https://docimages.blob.core.chinacloudapi.cn/images/Kris/firstworkflow/runworkflow.gif)
+![workflow](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Kris/firstworkflow/runworkflow.gif)
 
 
 ## 小结

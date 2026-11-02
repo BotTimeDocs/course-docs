@@ -13,7 +13,7 @@
 - 结束处理
 
 如图：
-![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/logAndInit/%E5%AE%8C%E6%95%B4%E6%B5%81%E7%A8%8B.jpg)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/logAndInit/%E5%AE%8C%E6%95%B4%E6%B5%81%E7%A8%8B.jpg)
 
 ## 创建日志模块
 
@@ -23,24 +23,24 @@
 
 ### 创建步骤
 1. 建立名为*创建日志*的子流程
-    ![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/logAndInit/%E5%88%9B%E5%BB%BA%E6%97%A5%E5%BF%97.jpg)
+    ![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/logAndInit/%E5%88%9B%E5%BB%BA%E6%97%A5%E5%BF%97.jpg)
 
 2. 依次检查日志文件夹/日志文件是否存在，如不存在则新建文件夹/文件。
-    ![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/logAndInit/%E6%96%87%E4%BB%B6%E5%A4%B9%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8.png)
-    ![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/logAndInit/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9.png)
-    ![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/logAndInit/%E6%97%A5%E5%BF%97%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8.png)
-    ![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/logAndInit/%E6%B7%BB%E5%8A%A0%E6%97%A5%E5%BF%97%E8%B7%AF%E5%BE%84.png)
+    ![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/logAndInit/%E6%96%87%E4%BB%B6%E5%A4%B9%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8.png)
+    ![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/logAndInit/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9.png)
+    ![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/logAndInit/%E6%97%A5%E5%BF%97%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8.png)
+    ![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/logAndInit/%E6%B7%BB%E5%8A%A0%E6%97%A5%E5%BF%97%E8%B7%AF%E5%BE%84.png)
 
 3. 编写在主流程中调用子流程并传参，实现创建日志的逻辑。
-    ![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/logAndInit/%E8%B0%83%E7%94%A8%E5%AD%90%E6%B5%81%E7%A8%8B.png)
-    ![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/logAndInit/%E6%97%A5%E5%BF%97%E6%96%87%E4%BB%B6%E8%B7%AF%E5%BE%84.png)
+    ![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/logAndInit/%E8%B0%83%E7%94%A8%E5%AD%90%E6%B5%81%E7%A8%8B.png)
+    ![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/logAndInit/%E6%97%A5%E5%BF%97%E6%96%87%E4%BB%B6%E8%B7%AF%E5%BE%84.png)
 
     此处演示的日志文件路径是：
     > 日志文件夹路径 + "\" + System.DateTime.Now.ToString("yyyyMMdd") + ".txt"
 
 4. 运行流程，日志文件成功创建。
 
-    <video src="https://docimages.blob.core.chinacloudapi.cn/images/Practice/logAndInit/%E5%88%9B%E5%BB%BA%E6%97%A5%E5%BF%97.mp4" controls="controls" width="700px" />
+    <video src="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/logAndInit/%E5%88%9B%E5%BB%BA%E6%97%A5%E5%BF%97.mp4" controls="controls" width="700px" />
 
 ## 实现环境初始化
 环境初始化模块主要为流程运行前，给流程提供一个干净的运行环境做准备，比如关闭流程所要执行的 Excel 文件，浏览器等等。根据项目的不同，需要进行不同的环境准备。
@@ -57,7 +57,7 @@
 
     >taskkill /f /im EXCEL.exe
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/logAndInit/%E6%9D%80%E8%BF%9B%E7%A8%8B.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/logAndInit/%E6%9D%80%E8%BF%9B%E7%A8%8B.png)
 
 ## 执行垃圾回收
 
@@ -65,4 +65,4 @@
 
     >GC.Collect()
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/logAndInit/%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6.png)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/logAndInit/%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6.png)

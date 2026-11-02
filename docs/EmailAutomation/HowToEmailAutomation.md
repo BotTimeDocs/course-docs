@@ -17,7 +17,7 @@
 1. 在编辑器创建一个新的项目**EmailAutomationDemo**
 2. 在【组件】面板搜索【邮件】或在【软件自动化】-【邮件】目录下找到【发送邮件(SMTP)】组件，并将其拖拽进新建项目Main设计面板中
 
-    ![Demo](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/EmailAutomation/EmailAutomation-Search.png)
+    ![Demo](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/EmailAutomation/EmailAutomation-Search.png)
 
 
 ## 配置邮件信息
@@ -61,12 +61,12 @@
     2. 设置此变量数据类型为List<string>，此时需导入命名空间 ```System.Collections.Generic.List<System.String>```
 
     3. 为此变量初始化 ```new List<string>(){"Files\Demo.txt","Files\HelloWorld.png"}``` 
-        ![Demo](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/EmailAutomation/EmailAutomation-var.png)
+        ![Demo](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/EmailAutomation/EmailAutomation-var.png)
 
 
 所有字段配置信息如下：
 
-![Demo](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/EmailAutomation/EmailAutomation-Perp.png)
+![Demo](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/EmailAutomation/EmailAutomation-Perp.png)
 
 
 ## 执行项目查看结果

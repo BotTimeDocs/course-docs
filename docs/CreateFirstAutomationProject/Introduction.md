@@ -28,12 +28,12 @@
 
 若想创建自动化项目，将从编辑器主界面开始操作，通过项目面板的新建项目创建自动化项目，然后使用组件面板的各种组件编辑自动化流程，让其成为更有效的业务工具。有关编辑器主界面的详细信息，请查看[用户界面](https://academy.encoo.com/zh-cn/wiki/Studio/Introduction/TheUserInterface.md)。
 
-![1](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/1.PNG)  菜单栏 - 显示各种菜单，为编辑器提供一些功能入口。
+![1](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/userInterface/1.PNG)  菜单栏 - 显示各种菜单，为编辑器提供一些功能入口。
 
-![2](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/2.PNG)  工具栏 - 显示各种工具按钮，使你可以开展广泛的活动。
+![2](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/userInterface/2.PNG)  工具栏 - 显示各种工具按钮，使你可以开展广泛的活动。
 
-![3](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/3.PNG)  工具面板 - 显示各个面板的分层结构图，使你可以访问特定的任务。
+![3](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/userInterface/3.PNG)  工具面板 - 显示各个面板的分层结构图，使你可以访问特定的任务。
 
-![4](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/4.PNG)  编辑区域 - 显示正在处理的自动化项目。
+![4](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/userInterface/4.PNG)  编辑区域 - 显示正在处理的自动化项目。
 
-![编辑器主界面](https://docimages.blob.core.chinacloudapi.cn/images/Studio/userInterface/mainInterface.PNG)
+![编辑器主界面](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/userInterface/mainInterface.PNG)

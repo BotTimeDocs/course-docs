@@ -8,7 +8,7 @@
 ## 定义变量并存入手机号和密码
 3. 点击设计面板下的 **变量**标签，并新建以下变量，同时在下图标红处填入你的云扩控制台用户名和密码 （将用户名和密码放于英文状态下的双引号内）
 
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/web/v2.png)
+![img](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/web/v2.png)
 
 ## 输入手机号和密码，登录
 4. 搜索**序列**组件并拖拽至设计面板，重命名为**3.1 Login_ConsolePanel**，将其和**流程决策**的True分支连接，双击打开
@@ -22,7 +22,7 @@
 8. 手动登录到控制台后
 9. 搜索**等待元素出现**组件并拖拽至设计面板。点击**指定元素**，将鼠标放到右上角**帮助文档**处，看到其高亮显示时点击
 
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/web/help.png)
+![img](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/web/help.png)
 
 10. **控件元素**属性值写入**elementOutput**；**结果**属性值写入**waitElementAppearResult2**
 
@@ -41,7 +41,7 @@
 ## 获取文本并输入
 18. 搜索**获取文本**组件并拖拽至设计面板。点击**指定元素**，将鼠标放到右上角**帮助文档**处，看到下图高亮显示时点击。**文本**写入属性值**text**
 
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/web/h2.png)
+![img](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/web/h2.png)
 
 19. 搜索**写入日志**组件并拖拽至设计面板。**日志内容**写入属性值 **"这里有"+text+"，可以点击查看帮助哟。"**
 

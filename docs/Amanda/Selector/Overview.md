@@ -18,11 +18,11 @@
 3. 搜索**获取元素**组件并拖拽至设计面板
 4. 点击**指定元素**，将鼠标放到导航栏**云扩RPA**处，看到下图高亮效果后点击
 
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/Selector/EncooRPA.png)
+![img](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/Selector/EncooRPA.png)
 
 5. 点击设计面板下的 **变量**标签，并新建一个**IUiObject**类型的变量，命名为**outElement**
 
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/Selector/Variable.png)
+![img](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/Selector/Variable.png)
 
 6. 点击**获取元素**组件，设置其输出**控件元素**属性值为**outElement** 
 
@@ -34,7 +34,7 @@
 ### 运行结果
 运行后大家可以看到如下效果
 
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/Selector/Result.png)
+![img](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/Selector/Result.png)
 
 在了解如何使用**控件元素**来定位目标元素后，接下来我们将学习如何使用**选择器编辑器**来动态的定位目标元素。
 请点击[这里](https://academy.bottime.com/zh-cn/wiki/Activities/Appendix/Selector.md)查看文档版详解，以完成后续课程和测试题

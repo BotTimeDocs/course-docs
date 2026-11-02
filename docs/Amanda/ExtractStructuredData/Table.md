@@ -19,11 +19,11 @@
 4. 搜索**获取结构化数据**组件并拖拽放置于**打开浏览器**内
 5. 点击**指定数据源**，将鼠标放到表内任一数据上，高亮显示时点击
 
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/ExtractStructruedData/1.png)
+![img](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/ExtractStructruedData/1.png)
 
 6. 弹出下图窗口后，点击**是**
 
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/ExtractStructruedData/getWhole.png)
+![img](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/ExtractStructruedData/getWhole.png)
 
 ## 预览整表数据
 
@@ -31,7 +31,7 @@
 
 7. 被获取到的数据被展示在下图。点击**完成**
 
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/ExtractStructruedData/WholeTable.png)
+![img](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/ExtractStructruedData/WholeTable.png)
 
 ## 翻页获取更多数据
 
@@ -39,11 +39,11 @@
 
 8. 点击下图的**是**
 
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/ExtractStructruedData/next.png)
+![img](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/ExtractStructruedData/next.png)
 
 9. 将鼠标移动到**下一页**，高亮显示时点击
 
-![img](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/ExtractStructruedData/next2.png)
+![img](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/ExtractStructruedData/next2.png)
 
 ## 设置最大提取条数
 

@@ -14,7 +14,7 @@
 4. 在“打开程序”组件的属性面板中，输入以下内容：
     - **程序路径**："C:\Windows\System32\notepad.exe"</br>要打开的程序的路径
 
-    ![打开程序](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/DesktopAutomation/openApp.PNG)
+    ![打开程序](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/DesktopAutomation/openApp.PNG)
 
 5. 从组件面板拖入一个“输入文本”组件到“打开程序”组件内部
 6. 点击“指定元素”，然后点击记事本主窗口，获取到该目标元素
@@ -28,12 +28,12 @@
 3. 从组件面板拖入一个“悬停”组件到“点击”组件下方
 4. 点击“指定元素”，按下F2，展开“查看”菜单，等待5秒后，点击“缩放”，获取到该目标元素，当鼠标悬停在该元素上时，展开该元素的二级菜单
 
-    ![缩放](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/DesktopAutomation/Zoom.PNG)
+    ![缩放](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/DesktopAutomation/Zoom.PNG)
 
 5. 从组件面板拖入一个“点击”组件到“悬停”组件下方
 6. 点击“指定元素”，按下F2，展开“查看->缩放”菜单，等待5秒后，点击“放大”，获取到该目标元素，以放大写入到记事本的文本内容
 
-    ![放大](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/DesktopAutomation/Magnify.PNG)
+    ![放大](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/DesktopAutomation/Magnify.PNG)
 
 ## 保存记事本文件
 对记事本的操作已经完成，最后我们要保存该记事本文件。
@@ -55,7 +55,7 @@
 
 最终，项目如下所示：
 
-![最终项目](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/DesktopAutomation/DesktopAutomation2.jpg)
+![最终项目](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/DesktopAutomation/DesktopAutomation2.jpg)
 
 ## 运行自动化项目
 在运行面板中，点击“运行”，开始自动向记事本中写入内容并将其放大，最后将该文件保存。

@@ -16,13 +16,13 @@
 
    我们将在选择器编辑器中，设置自动生成 XPath 。
 
-2. 点击下图图标后，勾选**生成 XPath（仅支持 WEB ）**。![image-20201202150659275](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/XPath/2-1.png)
+2. 点击下图图标后，勾选**生成 XPath（仅支持 WEB ）**。![image-20201202150659275](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/XPath/2-1.png)
 
 3. 点击**指定元素**，指定**百度一下**按钮。
 
    此时，已经自动生成了可以匹配到指定元素的 XPath 路径，如下图所示。
 
-   ![image-20201202172806657](https://docimages.blob.core.chinacloudapi.cn/images/Amanda/Tutorial/XPath/2-2.png)
+   ![image-20201202172806657](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Amanda/Tutorial/XPath/2-2.png)
 
 4. 点击确认。
 

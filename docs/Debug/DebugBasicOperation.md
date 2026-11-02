@@ -38,7 +38,7 @@
 >
 > 此时暂停处的组件并未执行。
 
-![断点操作](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extra/Debugging/BreakPoints.gif)
+![断点操作](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Extra/Debugging/BreakPoints.gif)
 
 ### 运行面板
 
@@ -47,25 +47,25 @@
 - 调试操作
 - 变量状态
 
-![运行面板](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extra/Debugging/RunPanel.png)
+![运行面板](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Extra/Debugging/RunPanel.png)
 
 #### 调试操作
 
 可以使用这些操作来控制流程的执行过程。
 
-![调试操作](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extra/Debugging/DebugButton.png)
+![调试操作](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Extra/Debugging/DebugButton.png)
 
 - 继续或暂停执行
 
     如果执行已暂停，可以点击“继续”，继续执行流程，直至命中下一个断点再次暂停。如果流程正在执行，此时按钮将切换为“暂停”，可以使用该按钮来暂停执行过程。
 
-    ![继续或暂停执行](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extra/Debugging/Break.gif)
+    ![继续或暂停执行](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Extra/Debugging/Break.gif)
 
 - 单步执行
 
     一次仅执行一个组件。如果下一个组件是容器类组件（如序列），将会打开容器类组件，然后从该组件内的第一个组件依次开始执行。
 
-    ![单步执行](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extra/Debugging/Step%20Into.gif)
+    ![单步执行](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Extra/Debugging/Step%20Into.gif)
 
 - 单步跳过
 
@@ -75,25 +75,25 @@
     >
     > 若容器类组件内的组件存在断点，则仍会进入并执行。
 
-    ![单步跳过](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extra/Debugging/StepOver.gif)
+    ![单步跳过](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Extra/Debugging/StepOver.gif)
 
 - 单步跳出
 
     如果在容器类组件内部，将会执行该容器类组件的其余组件，并在执行完成后跳出该容器类组件。
 
-    ![单步跳出](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extra/Debugging/StepOut.gif)
+    ![单步跳出](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Extra/Debugging/StepOut.gif)
 
 - 重试
 
     重新执行上一个组件，如果仍然遇到了异常，将会抛出该异常。
 
-    ![重试](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extra/Debugging/Retry.gif)
+    ![重试](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Extra/Debugging/Retry.gif)
 
 - 忽略
 
     忽略遇到的异常，并从下一个组件继续执行，以便可以继续调试其余的流程。
 
-    ![忽略](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extra/Debugging/Ignore.gif)
+    ![忽略](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Extra/Debugging/Ignore.gif)
 
 - 重启
 
@@ -114,4 +114,4 @@
 - 上一个组件的属性：仅显示输入和输出属性
 - 异常：流程出错时抛出的异常类型和值
 
-![变量面板](https://docimages.blob.core.chinacloudapi.cn/images/Studio/Extra/Debugging/VariablesPanel.png)
+![变量面板](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Studio/Extra/Debugging/VariablesPanel.png)

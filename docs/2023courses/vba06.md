@@ -72,7 +72,7 @@
 
 ![image](https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/E8K4ny5ZZZ5onLbj/img/375ab5cb-941d-44c2-8347-999f5d97db44.jpg)
 
-如果你希望获取示例流程文件，点击[分割过大 Excel 文件](https://docimages.blob.core.chinacloudapi.cn/images/Practice/SplitExcel/%E5%88%87%E5%89%B2%E8%BF%87%E5%A4%A7Excel%E6%96%87%E4%BB%B6.dgs)获取。
+如果你希望获取示例流程文件，点击[分割过大 Excel 文件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/SplitExcel/%E5%88%87%E5%89%B2%E8%BF%87%E5%A4%A7Excel%E6%96%87%E4%BB%B6.dgs)获取。
 
 <br><br>
 

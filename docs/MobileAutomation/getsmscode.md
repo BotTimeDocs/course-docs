@@ -21,31 +21,31 @@
 
 1. 当手机连接上 PC 之后，USB 的连接方式选择“传输文件” ，然后将安卓服务包中的 SmsObserver.apk 拖入手机文件目录下的某个位置，从手机端点击此 apk 安装程序。
 
-    ![sms 路径](https://docimages.blob.core.chinacloudapi.cn/images/Course/smspath.png)
+    ![sms 路径](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/smspath.png)
 
 2. 运行安卓服务包中的 Encoo.Android.Automation.exe 安卓自动化程序。如果是第一次连接手机请参考 [安卓手机配置文档](https://academy.encoo.com/zh-cn/wiki/Studio/process/developProject/MobileDevicesManage/Download.md?uuid=1ba0256c-ad6d-4f13-aff7-8572dd274f18)。
 
-    ![可执行程序](https://docimages.blob.core.chinacloudapi.cn/images/Course/executeapp.png)
+    ![可执行程序](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/executeapp.png)
 
 3. 点击“连接服务”。
 
-    ![连接服务](https://docimages.blob.core.chinacloudapi.cn/images/Course/connectionservice.png)
+    ![连接服务](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/connectionservice.png)
 
    服务已连接成功如下图所示。
 
-    ![服务连接成功](https://docimages.blob.core.chinacloudapi.cn/images/Course/automateconnect.png)
+    ![服务连接成功](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/automateconnect.png)
 
 4. 使用管理员角色打开命令行，输入 `adb devices`，查看当前已经连接的移动端设备，保证手机与 PC 已经连接上。
   
-    ![adb](https://docimages.blob.core.chinacloudapi.cn/images/Course/adbdevices.png)
+    ![adb](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/adbdevices.png)
 
 5. 打开云扩编辑器，点击菜单栏的“工具 > 移动设备管理器”。
 
-    ![打开移动设备管理器](https://docimages.blob.core.chinacloudapi.cn/images/Course/openmobilemanage.png)
+    ![打开移动设备管理器](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/openmobilemanage.png)
 
 6. 选择小米手机，并连接设备。
 
-   ![连接设备](https://docimages.blob.core.chinacloudapi.cn/images/Course/connectdevice.png)
+   ![连接设备](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/connectdevice.png)
 
 ## 设计与开发流程
 
@@ -62,60 +62,60 @@
 
 1. 打开编辑器，新建流程，流程名可自定义。
 
-    ![创建流程](https://docimages.blob.core.chinacloudapi.cn/images/Course/createflow.png)
+    ![创建流程](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/createflow.png)
 
 2. 拖入“打开浏览器”组件，浏览器类型选择 `chrome`，网址：_某网站登录地址_
 3. 点击 “手机免密登录”。
 4. 输入手机号码，点击“获取验证码”。
 
-    ![获取验证码](https://docimages.blob.core.chinacloudapi.cn/images/Course/getsmscodeflow.png)
+    ![获取验证码](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/getsmscodeflow.png)
 
 5. 拖入“连接设备”组件，内部拖入“获取短信验证码”组件。
 
-    ![获取短信验证码组件](https://docimages.blob.core.chinacloudapi.cn/images/Course/activity.png)
+    ![获取短信验证码组件](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/activity.png)
 
 6. “获取短信验证码”组件需要配置输入和输出选项，此处我设置的开始时间为 5 分钟以内，超时为 60 秒，输出的验证码复制给`verification_code` 变量
 
-    ![设置属性](https://docimages.blob.core.chinacloudapi.cn/images/Course/settingattu.png)
+    ![设置属性](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/settingattu.png)
 
 7. 最后拖入"输入文本"组件，指定验证码元素输入框，输入的文本为上一步获取到的验证码 `verification_code`，点击“登录”
 
-    ![登录](https://docimages.blob.core.chinacloudapi.cn/images/Course/login.png)
+    ![登录](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/login.png)
 
 8. 运行流程。
 
     - 自动获取验证码并登录的流程图示：
 
-    ![流程图示](https://docimages.blob.core.chinacloudapi.cn/images/Course/flowchart.png)
+    ![流程图示](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/flowchart.png)
 
     - 手机端获取验证码截图：
 
-    ![手机端获取验证码](https://docimages.blob.core.chinacloudapi.cn/images/Course/autogetsmscode.jpg)
+    ![手机端获取验证码](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/autogetsmscode.jpg)
 
     - 云扩编辑器端，运行日志输出了正确的验证码：
 
-    ![运行结果](https://docimages.blob.core.chinacloudapi.cn/images/Course/runresult.png)
+    ![运行结果](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/runresult.png)
 
 ## 常见问题
 
 1. **Q：获取到了 StartTime，但是验证码获取失败。**
 
-    ![异常现象](https://docimages.blob.core.chinacloudapi.cn/images/Course/unnormal.jpg)
+    ![异常现象](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/unnormal.jpg)
 
    **A：** 从以下四个步骤进行排查：
 
     a. 进入小米设置页面，点击授权管理。
 
-    ![1](https://docimages.blob.core.chinacloudapi.cn/images/Course/mobile1.jpg)
+    ![1](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/mobile1.jpg)
 
     b. 点击“应用权限管理”。
 
-    ![2](https://docimages.blob.core.chinacloudapi.cn/images/Course/mobile2.jpg)
+    ![2](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/mobile2.jpg)
 
     c. 找到我们最开始安装的 Sms 应用，打开应用设置。
 
-    ![3](https://docimages.blob.core.chinacloudapi.cn/images/Course/mobile3.jpg)
+    ![3](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/mobile3.jpg)
 
     d. “通知类短信“选项需要设置为“允许”，完成设置后再重新运行下流程。
 
-    ![4](https://docimages.blob.core.chinacloudapi.cn/images/Course/mobile4.jpg)
+    ![4](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Course/mobile4.jpg)

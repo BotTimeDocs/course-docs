@@ -21,11 +21,11 @@
 
 步骤2：点击“新建”按钮，在弹窗中填写机器人基本信息并选择对应的机器人类型后，点击“确定”即可完成机器人新建。新建成功后，系统将会自动复制该“机器人连接字符串”以用于激活。
 
-![Consoleintroduction](https://docimages.blob.core.chinacloudapi.cn/images/Console/ConsoleConnection1.png)
+![Consoleintroduction](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/ConsoleConnection1.png)
 
 ​         若此次没有激活，后续也可点击机器人名称查看“机器人详情”找到并复制该字符串。
 
-![Consoleintroduction](https://docimages.blob.core.chinacloudapi.cn/images/Console/ConsoleConnection2.png)
+![Consoleintroduction](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/ConsoleConnection2.png)
 
 
 ### 2、在机器人客户端激活
@@ -34,21 +34,21 @@
 
 步骤1：打开已经安装好的机器人客户端，在激活方式选择页面中点击“社区版”中的“控制台激活”。
 
-![Consoleintroduction](https://docimages.blob.core.chinacloudapi.cn/images/Console/ConsoleConnection3.png)
+![Consoleintroduction](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/ConsoleConnection3.png)
 
 步骤2：在激活页面中“连接字符串”输入框中粘贴已复制的“机器人连接字符串”，点击“激活”按钮，即可完成对应机器人的激活。
 
-![Consoleintroduction](https://docimages.blob.core.chinacloudapi.cn/images/Console/ConsoleConnection4.png)
+![Consoleintroduction](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/ConsoleConnection4.png)
 
 #### 企业版机器人激活
 
 步骤1：打开已经安装好的机器人客户端，在激活方式选择页面中点击“企业版”中的“控制台激活”。
 
-![Consoleintroduction](https://docimages.blob.core.chinacloudapi.cn/images/Console/ConsoleConnection5.png)
+![Consoleintroduction](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/ConsoleConnection5.png)
 
 步骤2：在激活页面中“连接字符串”输入框中粘贴已复制的机器人“连接字符串”，点击“激活”按钮，即可完成对应机器人的激活。
 
-![Consoleintroduction](https://docimages.blob.core.chinacloudapi.cn/images/Console/ConsoleConnection6.png)
+![Consoleintroduction](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/ConsoleConnection6.png)
 
 ## 通过控制台激活编辑器 
 
@@ -58,12 +58,12 @@
 
 步骤1：打开已经安装好的编辑器客户端，在激活方式选择页面中点击“社区版”中的“控制台激活”。
 
-![Consoleintroduction](https://docimages.blob.core.chinacloudapi.cn/images/Console/ConsoleConnection7.png)
+![Consoleintroduction](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/ConsoleConnection7.png)
 
 
 步骤2：在激活页面中输入对应的“账号”及“密码”后，点击“下一步”按钮，即可进入租户选择页面。
 
-![Consoleintroduction](https://docimages.blob.core.chinacloudapi.cn/images/Console/ConsoleConnection8.png)
+![Consoleintroduction](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/ConsoleConnection8.png)
 
 步骤3：在租户选择页面中选择对应的租户后，即可完成激活。
 
@@ -71,22 +71,22 @@
 >
 > 对于社区版每人仅拥有一个社区版租户。
 
-![Consoleintroduction](https://docimages.blob.core.chinacloudapi.cn/images/Console/ConsoleConnection9.png)
+![Consoleintroduction](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/ConsoleConnection9.png)
 
 #### 企业版编辑器激活
 
 步骤1：打开已经安装好的编辑器客户端，在激活方式选择页面中点击“企业版”中的“登录控制台激活”。
 
-![Consoleintroduction](https://docimages.blob.core.chinacloudapi.cn/images/Console/ConsoleConnection10.png)
+![Consoleintroduction](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/ConsoleConnection10.png)
 
 步骤2：在激活页面中输入对应的“控制台服务地址”、“账号”及“密码”等信息后，点击“下一步“按钮，即可进入租户选择页面。
 
-![Consoleintroduction](https://docimages.blob.core.chinacloudapi.cn/images/Console/ConsoleConnection11.png)
+![Consoleintroduction](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/ConsoleConnection11.png)
 
 
 步骤3：编辑器会自动填写云扩 SaaS 版企业控制台的服务地址，对于私有化版企业控制台可以在首页（HomePage）导航页中复制对应的“控制台服务地址”进行填写。
 
-![Consoleintroduction](https://docimages.blob.core.chinacloudapi.cn/images/Console/ConsoleConnection12.png)
+![Consoleintroduction](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/ConsoleConnection12.png)
 
 步骤4：在租户选择页面中选择对应的租户后，即可完成激活。
 
@@ -94,7 +94,7 @@
 >
 > 一个用户可以被加入多个企业版租户中。
 
- ![Consoleintroduction](https://docimages.blob.core.chinacloudapi.cn/images/Console/ConsoleConnection13.png)
+ ![Consoleintroduction](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/ConsoleConnection13.png)
 
 ## 查看许可证使用情况
 
@@ -103,6 +103,6 @@
 
 完成编辑器、机器人等客户端激活操作后， 若需要查看并管理许可证的使用情况，可在“全局管理 > 许可证”中，点击对应的”查看使用情况”按钮即可查看使用详情。
 
- ![Consoleintroduction](https://docimages.blob.core.chinacloudapi.cn/images/Console/ConsoleConnection14.png)
+ ![Consoleintroduction](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Console/ConsoleConnection14.png)
 
 以上便是通过控制台激活编辑器及机器人的方式，我们将会在后续的课程中介绍控制台是如何使用编辑器上传的流程包去调度机器人执行任务。

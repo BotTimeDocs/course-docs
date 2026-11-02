@@ -19,7 +19,7 @@
 1. 拖入 *流程图* 组件，重命名为*获取年月日*：
 2. 在流程图中，设置字符串型变量 *年* 与参数 *年份增量*。
 3. 拖入*赋值*组件，赋值左侧为变量 *年*，右侧为 `System.DateTime.Now.AddYears(年份增量).ToString(*yyyy*)`
-![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/datepicker/%E5%B9%B4)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/datepicker/%E5%B9%B4)
 4. 以同样方法指定月份及日期。添加以下变量：
     - *月*；
     - *日*；
@@ -40,21 +40,21 @@
 
 拖入*点击*组件，指定日期输入框元素。
 
-![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/datepicker/%E7%82%B9%E5%87%BB%E6%97%A5%E6%9C%9F%E9%80%89%E6%8B%A9%E6%A1%86)
+![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/datepicker/%E7%82%B9%E5%87%BB%E6%97%A5%E6%9C%9F%E9%80%89%E6%8B%A9%E6%A1%86)
 
 ### 选择年份
 
 1. 拖入*点击*组件，点击年份,打开年份选项框。
 
-    ![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/datepicker/%E7%82%B9%E5%87%BB%E5%B9%B4%E4%BB%BD)
+    ![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/datepicker/%E7%82%B9%E5%87%BB%E5%B9%B4%E4%BB%BD)
 
 2. 拖入*获取结构化数据*组件，获取该面板所有年份。查看指定年份是否包含在内。如果不包含，则点击上一页或者下一页按钮翻页）：
 
-    ![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/datepicker/%E7%BB%93%E6%9E%84%E5%8C%96%E8%8E%B7%E5%8F%96%E5%B9%B4%E4%BB%BD)
+    ![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/datepicker/%E7%BB%93%E6%9E%84%E5%8C%96%E8%8E%B7%E5%8F%96%E5%B9%B4%E4%BB%BD)
 
 3. 拖入*C\#*组件，从上步获取的数据表中循环查找指定年份。如果包含，则赋值isTrue为true，为下一步做准备：
 
-    ![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/datepicker/%E6%9F%A5%E6%89%BE%E6%8C%87%E5%AE%9A%E5%B9%B4%E4%BB%BD)
+    ![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/datepicker/%E6%9F%A5%E6%89%BE%E6%8C%87%E5%AE%9A%E5%B9%B4%E4%BB%BD)
 
 附上查找年份代码：
 
@@ -75,27 +75,27 @@ for(int i=0;i\<dt.Rows.Count;i++){
 ```
 
 4. 使用*流程决策*组件，根据 isTrue 判断下一步操作：
-    ![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/datepicker/%E5%88%A4%E6%96%AD%E7%BF%BB%E9%A1%B5)
+    ![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/datepicker/%E5%88%A4%E6%96%AD%E7%BF%BB%E9%A1%B5)
 
 如果isTrue为真（上步中查询到预期年份），则直接点击选中年份;
 如果未查到年份，则点击翻页。
-    ![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/datepicker/%E7%82%B9%E5%87%BB%E5%B9%B4%E4%BB%BD%E7%BF%BB%E9%A1%B5)
+    ![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/datepicker/%E7%82%B9%E5%87%BB%E5%B9%B4%E4%BB%BD%E7%BF%BB%E9%A1%B5)
 
 ### 选择月份
 1. 使用*赋值*组件，拼接月份：
-    ![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/datepicker/%E6%8B%BC%E6%8E%A5%E6%9C%88%E4%BB%BD)
+    ![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/datepicker/%E6%8B%BC%E6%8E%A5%E6%9C%88%E4%BB%BD)
 
 2. 打开月份选择框：
-    ![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/datepicker/%E6%89%93%E5%BC%80%E6%9C%88%E4%BB%BD%E9%80%89%E6%8B%A9%E6%A1%86)
+    ![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/datepicker/%E6%89%93%E5%BC%80%E6%9C%88%E4%BB%BD%E9%80%89%E6%8B%A9%E6%A1%86)
 
 3. 点击指定月份:
-    ![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/datepicker/%E7%82%B9%E5%87%BB%E6%8C%87%E5%AE%9A%E6%9C%88%E4%BB%BD)
+    ![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/datepicker/%E7%82%B9%E5%87%BB%E6%8C%87%E5%AE%9A%E6%9C%88%E4%BB%BD)
 
 ### 选择日期
 
 点击指定日期：
-    ![](https://docimages.blob.core.chinacloudapi.cn/images/Practice/datepicker/%E9%80%89%E6%8B%A9%E6%97%A5%E6%9C%9F)
+    ![](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/datepicker/%E9%80%89%E6%8B%A9%E6%97%A5%E6%9C%9F)
 
 完整的流程编辑请参考以下视频：
 
-<video src="https://docimages.blob.core.chinacloudapi.cn/images/Practice/datepicker/datepicker-%E5%8A%A0%E5%AD%97%E5%B9%95_1.mp4" controls="controls" width="700px" />
+<video src="https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/Practice/datepicker/datepicker-%E5%8A%A0%E5%AD%97%E5%B9%95_1.mp4" controls="controls" width="700px" />

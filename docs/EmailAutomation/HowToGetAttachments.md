@@ -15,7 +15,7 @@
 1. 在编辑器创建一个新的项目**GetEmailandAttachmentsDemo**
 2. 从【组件】面板将组件【获取邮件(POP3)】、【循环操作（For Each）】拖入进设计面板中
 
-   ![Demo](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/EmailAutomation/GetAttachments-1.png)
+   ![Demo](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/EmailAutomation/GetAttachments-1.png)
 
 
 ## 配置目标邮箱信息
@@ -45,11 +45,11 @@
     
     1. 在变量列表新建一个变量mailResult，类型为List&lt;System.Net.Mail.MailMessage&gt;
 
-        ![Demo](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/EmailAutomation/GetAttachments-3.png)
+        ![Demo](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/EmailAutomation/GetAttachments-3.png)
 
     2. 回到属性栏，在【输出】-【邮件】输入框中填入mailResult，即所获取到的邮件就都会保存在mailResult中
 
-       ![Demo](https://docimages.blob.core.chinacloudapi.cn/images/EncooLearn/EmailAutomation/GetAttachments-4.png)
+       ![Demo](https://docimages-1302809250.cos.ap-shanghai.myqcloud.com/images/EncooLearn/EmailAutomation/GetAttachments-4.png)
 
 
 ## 循环获取的邮件并将附件保存至指定目录
